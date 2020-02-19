@@ -1,7 +1,7 @@
 {
     "key": "chicken_atk_1",
-	"name": "&6Chicken Attack",
-    "author": "Matty",
+    "name": "&6Chicken Attack",
+    "author": "iCodeDreams",
     "npcs": {
         "RESIDENT_ONE": {
             "name": [

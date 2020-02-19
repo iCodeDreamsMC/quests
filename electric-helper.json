@@ -1,0 +1,309 @@
+{
+    "key": "ELECTRIC_HELPER",
+    "name": "&bDaily Challenge 6 - Electric Helper",
+	"author": "MattyDreams",
+    "description": "Speak to Zoey and help her find the Pokémon she needs.",
+    "location": "Great Sanctuary",
+    "minimumLevel": 20,
+	"category": "Catching",
+    "hideInQuestLog": true,
+    "allowRejoining": true,
+    "icon": {
+        "material": "MAGNET"
+    },
+    "rewards": [
+        "&67500 Coins",
+        "&55 Tokens",
+        "&27500 Trainer Experience",
+        "&rChance for &eMagnet"
+    ],
+    "npcs": {
+		"Zoey": {
+            "name": [
+				"&6&lZoey",
+				"&a&lChallenge Giver"
+			],
+            "location": {
+                "world": "world",
+                "x": 2274.5,
+                "y": 32.0,
+                "z": 1083.5,
+                "yaw": 145,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MTc3NzE2MTUwMTcsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyZmViOTc4MTNlOGM5OTY1YmZiYzg2NGI0MjRlODUxNzRkOGFhMDk2N2VmNTJkMjk1YzhhMmE5ZjJhMzU4In19fQ==",
+                "signature": "KOVDZRopei8zXTMl5c40XDhMIjiP/tAB3ZN6nISeKlR25qjbp1wxHcIAtWdAaNM9XvNWUAWK1VJkHXdpwiB1gGQfanAMR5V4NMhJBBCVoJcxOCwB0HMGjpgPOLIEotb7/bXtPZqcFMgzgpzkKDVQtGOXowlwVAth944LeCMZge1P/BPiVdh8QiZ3Qst7/C1Gihad0L/VrSSBsg+8oZoaU0icjlbURhq9j3HsuYvkEUJx7ZK2Wu+aYLdQKzyUskg1QNE3mzYq175aUDHQXKII5IkGthbj31GK+NLg8qWnPirjpYBlJN1q7oa2nJFEKdMJiwAWcuOiGJrDqquUggBDyloIJ1unuP6xNnCMxV2bjrZbKIyeV3tSkNa/pWoRuuOZb6MjgMxABRPv2nsqVKOp6umNdlOsr6PovZbwhQRd4yNvTlmXKNspb7eyUtbtp5KXCBClOndJgX+jD42cCFROLEOT3MvOk9Pdc7tvYhE1VirwWei0Fs8qHBbBLemI+oMCsOeeKqqBW8zEJ1yIHfAwSUNYkNKk5WKnafQ+aBPylBu3ldVQpfoeu5Ek4H/CJ8I0Te9bUpgZgm5wNuarZw/PXnBRcWORcQ1kqkHDsQnm/WPGv8P5YLKnM1j32a87UnvpKhhP0kvPVSGnHzTfN4YgJX0rw6DjRjkILfSYF12DITk="
+            }
+    },
+        "Alex": {
+            "name": "&9&lAlex",
+            "location": {
+                "world": "world",
+                "x": 2272.472,  
+                "y": 27.3125,
+                "z": 995.55,
+                "yaw": -90,
+                "pitch": 45
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NDM3Mjk1MzA3MDgsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQxYTYwMTIyZjNhNDI1ZDg5ZWYwMzRhN2FkMjJkZWJmY2Y2NDNkZjIzMmRjYmRkOGZmZjY2ZjAzMGIwZjVhZCJ9fX0=",
+                "signature": "ZOMTIDeouSQYo5sI86Yw18GofiEkSbynrHoe1sN55kUZGtxdCFfRIgMLh4oTGbCKC3dmoh4zobsFmZJDkavlwklEF5bsJN1iGI81D5v1NIQrTB+iKXW7sPtLadhL97NmqlT4rzAiAeFmsuBsci1lYQvB6rZ68eW3lN1zPoSTrwssSlfbL2posguVhyM7aoQLjxv4AT+8aVmrMTm3pLqR+xgI9/FvFTPtbXV2hAMwn9i5AuG8jfBYiklaiwb1/vkl5KqsTWmRSrCht81d6g+bTKYZ9zOiTPcWieM2ewS6d9nShbDb8/k+qnjIL4Vv1HKRTR/N3Vz2aTXmJsTwck3h4y/FM+39BtpAXmeEOIDfASyMEHMQFtpej/GwuQNplYnQ0IWwYcGfqqQa2TTzs+WozQIYoX0kbP8FfxMjBxLb0lHUKyiPKdp8XaHWzvImkjCwfLKZqc71qBzCkF3H8i+3kojesDTmfYtXyEeEGsyCwQlOsO7Mt2nANu/563DGqRfxLSljBNCHBA54yawzcJEcyjzuqwz+poCQ6f+k54/57lUGZDew3QIcuVX4yevk9qi0BTO5dolQR+VJchIwVZfFxaHbOqwLnClkOqxgGJFwSTHVfCDmWesYLMg70PlxPaKa1Ck1iidT56JaHAYZ5N0mMEeXc+Ng5KYtRCNj4Rsg4cM="
+            }
+		}
+    },
+    "visibility": {
+        "Zoey": true,
+		"Alex": false
+    },
+	"HighlightClickEntityStage": [
+        "Zoey"
+    ],
+	"NotCompletedQuestProgressStage": [
+	24,
+	0
+	],	
+    "DialogStage": [
+        {
+            "Zoey": "Hi There.",
+            "Zoey": "You seem bored.",
+            "Zoey": "Wanna help me catch some electric types?",
+            "Zoey": "It will be shockingly fun!",
+            "[PLAYER]": "Of Course! I would love to help!",
+            "Zoey": "Fantastic! I have some pokemon.",
+            "Zoey": "Beware of a person named Alex he will do anything to get in your way.",
+            "Zoey": "He really doesn't like me."
+        }
+],
+	"TimedStage": [
+              2.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Magnemite."
+	],
+    
+	"CatchPokemonStage": [
+	    "Magnemite",
+		1
+	],
+	"ClickEntityStage": [
+	    "Zoey"
+	],
+	"ObjectiveStage": [
+		"Give the Magnemite to Zoey"
+	],
+	"ProvidePokemonStage": [
+        "Zoey",
+        "Magnemite"
+    ],
+	"DialogStage": [
+		{
+			"Zoey": "Thanks, 1 more electric type."
+		}],
+	"TimedStage": [
+        2
+    ],
+	"ObjectiveStage": [
+		"Catch a Voltorb."
+	],
+    
+	"CatchPokemonStage": [
+	    "Voltorb",
+		1
+	],
+	"ClickEntityStage": [
+	    "Zoey"
+	],
+	"ObjectiveStage": [
+		"Give the Voltorb to Zoey"
+	],
+	"ProvidePokemonStage": [
+        "Zoey",
+        "Voltorb"
+    ],
+	"DialogStage": [
+		{
+			"Zoey": "That’s it for the electric type.",
+			"Zoey": "But, I need some other Pokémon also.",
+			"Zoey": "Sorry I didn't tell you in the beginning."
+		}],
+	"TimedStage": [
+        2
+    ],
+	"ObjectiveStage": [
+		"Catch a Diglett."
+	],
+    
+	"CatchPokemonStage": [
+	    "Diglett",
+		1
+	],
+	"ClickEntityStage": [
+	    "Zoey"
+	],
+	"ObjectiveStage": [
+		"Give the Diglett to Zoey"
+	],
+	"ProvidePokemonStage": [
+        "Zoey",
+        "Diglett"
+    ],
+	"DialogStage": [
+		{
+			"Zoey": "Wow! Your doing Great!",
+			"Zoey": "See its not that bad. Keep it up!"
+		}],
+	"TimedStage": [
+        2
+    ],
+	"ObjectiveStage": [
+		"Catch a Geodude."
+	],
+	"CatchPokemonStage": [
+	    "Geodude",
+		1
+	],
+	"ClickEntityStage": [
+	    "Zoey"
+	],
+	"ObjectiveStage": [
+		"Give the Geodude to Zoey"
+	],
+	"ProvidePokemonStage": [
+        "Zoey",
+        "Geodude"
+    ],
+	"DialogStage": [
+		{
+			"Zoey": "I have bad news…",
+			"Zoey": "Alex came by and stole the Magnemite, Voltorb, and the Diglett.",
+			"[PLAYER]": "Oh no!",
+			"Zoey": "I need your help. Please… ",
+			"[PLAYER]": "I'm glad to help!",
+			"Zoey": "I need you to fight him.",
+			"Zoey": "Quick! Before he leaves.",
+			"[PLAYER]": "Where is he?",
+			"Zoey": "Somewhere in Oasis Farm!"
+		}
+],
+	"TimedStage": [
+        1
+    ],
+	"ObjectiveStage": [
+		"Fight Alex in Oasis Farm"
+	],
+    "visibility": {
+        "Zoey": false,
+		"Alex": true
+    },
+    "NpcBattleStage": [
+        "Alex",
+        {
+            "Alex": "What do you want?",
+            "Alex": "Why are you here?",
+			"Alex": "Oh, you want your friends Pokémon back don't you.",
+            "Alex": "Well then, Fight me!"
+        },
+        {
+			"Alex": "Fine, here is your pokemon..."
+        },
+		{
+			"Alex": "Come back when you put up a real challenge."
+		},
+        [
+            {
+                "species": "Magnemite",
+                "level": 55,
+                "moves": [
+                    "Zap Cannon",
+                    "Gyro Ball",
+                    "Magnet Rise",
+                    "Tackle"
+                ],
+                "gender": "Female",
+                "ability": "Magnet Pull",
+                "nature": "Modest",
+                "evs": {
+                    "speed": 252,
+                    "hp": 4,
+                    "special_attack": 252
+                }
+            },
+            {
+                "species": "Voltorb",
+                "level": 59,
+                "moves": [
+                    "Electro Ball",
+                    "Charge Beam",
+                    "Screech",
+                    "Rollout"
+                ],
+                "gender": "Male",
+                "ability": "Static",
+                "nature": "Modest",
+                "evs": {
+                    "hp": 252,
+                    "defense": 252,
+                    "special_defense": 4
+                }
+            },
+            {
+                "species": "Diglett",
+                "level": 61,
+                "moves": [
+                    "Sand Attack",
+                    "Astonish",
+                    "Scratch",
+                    "Growl"
+                ],
+                "gender": "Female",
+                "ability": "Arena Trap",
+                "nature": "Jolly",
+                "evs": {
+                    "hp": 252,
+                    "defense": 252,
+                    "special_defense": 4
+               }
+            }
+        ]
+    ],
+    "visibility": {
+        "Zoey": true,
+		"Alex": false
+	},
+	"ClickEntityStage": [
+	    "Zoey"
+	],
+	"ObjectiveStage": [
+		"Talk to Zoey"
+	],
+	"DialogStage": [
+		{
+			"Zoey": "Wow! Thank you so much!",
+			"Zoey": "Wasn't that fun?",
+			"[PLAYER]": "Sure...",
+			"Zoey": "Well, anyways thanks so much!",
+			"[PLAYER]": "Anytime.",
+			"Zoey": "Here are some things to reward your kindness."
+		}
+],
+	"TimedStage": [
+        3
+    ],
+    "GiveCoinsStage": [
+        7500
+    ],
+    "GiveTokensStage": [
+        5
+    ],
+    "GiveTrainerExperienceStage": [
+        7500
+    ],
+	"GiveItemStage": [
+		"Magnet",
+		1,
+		0.10
+	],
+	"CompleteQuestStage": [
+	]
+}

@@ -1,0 +1,3552 @@
+{
+    "key": "fossil_quest_casino",
+    "name": "&6The Fossil Thief",
+    "author": "Matty",
+    "description": "Dr Trayaurus' fossil was stolen by a Thief. Help him get it back!",
+    "location": "Talk to Dr Trayaurus at the Casino!",
+    "minimumLevel": 30,
+    "hideInQuestLog": false,
+    "allowRejoining": true,
+    "icon": {
+        "material": "BONE"
+    },
+    "npcs": {
+        "DRT1": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2597.5,
+                "y": 72.0,
+                "z": 1034.5,
+                "yaw": 135,
+                "pitch": 0
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT2": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2601.5,
+                "y": 72.0,
+                "z": 1044.5,
+                "yaw": 25,
+                "pitch": 0
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT2_HAND": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2601.5,
+                "y": 72.0,
+                "z": 1048.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "item": {
+                "material": "bone"
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT2_NOHAND": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2595.5,
+                "y": 72.0,
+                "z": 1033.5,
+                "yaw": 180,
+                "pitch": 0
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT3": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2574.5,
+                "y": 73.0,
+                "z": 1052.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT4": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2583.5,
+                "y": 72.0,
+                "z": 1052.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "item": {
+                "material": "bone"
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT5": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2590.5,
+                "y": 72.0,
+                "z": 1052.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT5_HAND": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2590.5,
+                "y": 72.0,
+                "z": 1052.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "item": {
+                "material": "bone"
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "DRT6": {
+            "name": [
+                "&f&lDr. Trayaurus"
+            ],
+            "location": {
+                "x": 2602.5,
+                "y": 119.0,
+                "z": 1047.5,
+                "yaw": 45,
+                "pitch": 0
+            },
+            "item": {
+                "material": "bone"
+            },
+            "entity": "villager",
+            "villager_type": "Librarian"
+        },
+        "F1": {
+            "name": [
+                "&c&lMatt"
+            ],
+            "location": {
+                "x": 2602.5,
+                "y": 72.0,
+                "z": 1045.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "entity": "villager"
+        },
+        "F2": {
+            "name": [
+                "&c&lTim"
+            ],
+            "location": {
+                "x": 2599.5,
+                "y": 72.0,
+                "z": 1044.5,
+                "yaw": -45,
+                "pitch": 0
+            },
+            "entity": "villager"
+        },
+        "F3": {
+            "name": [
+                "&c&lBob"
+            ],
+            "location": {
+                "x": 2598.5,
+                "y": 72.0,
+                "z": 1045.5,
+                "yaw": -80,
+                "pitch": 0
+            },
+            "entity": "villager"
+        },
+        "G1": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2613.5,
+                "y": 72.0,
+                "z": 1040.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM1NjE0ODg5MDIsInByb2ZpbGVJZCI6IjVkMjRiYTBiMjg4YzQyOTM4YmExMGVjOTkwNjRkMjU5IiwicHJvZmlsZU5hbWUiOiIxbnYzbnQxdjN0NGwzbnQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhNGY3ZWIwMzIxOGYzODczYjRjMzEwMzIyOTc4YjQ1YzZhMzUwODZiMzFlOTA0YmQxZDZiYzE4MWNjMjQyZGMifX19",
+                "signature": "h38ZuacTIITWebY1aZGzl9mxilGEm8RvfewWJFOqyz12L5dYdZtZ/UI7SJOfm83odFv3tSamauiFhtS5FMHXGD8UBiD2qwsqfjG5grznwh1mJtQk9/JKGL4TrqHDLUmwqFETFdudZ8O3E5ZfR4bBaZ7R2ksq9Nr5Sg4YmcOTbMbA6jtn576znPK62FgYsA1ckC/Dk75Igq1wkB6SaCyLyc/7N2VOszTvx4OGdW8yQpvKeyW4bWe8iFgd85aoNhox9MQWbZrlhpK3PGKbZCHOCMTq/9ex4DPjXJutyEZ8C2ZLAcdPIeZMwEoSSkfqbK0fwgpJIvrZjWVbys+or+DlR40RfC9u2jg4Dn5pyt/5M/8PFj7hT47hlvzaxOmIlCj+yq3wSvoZnu6EOQhi892cusPLKOjAA5ZxXJ6IQo3s+Mm7l2Po89p1aD/fFgJ0J46ZMrGHBX/0VPSQG8XSaqSmjTMG4aB4RrgjPNbPYGggFrYLDSIMFpJqDWL9q6JsEwS3mMRLWSc4F93+rEkx1dRLMGdpg4vfKVCM5y3CGxKLVFj3+z+v1TMs04tg2rUIIr8QTYqBtc3r+VIMIJ07DljPXrpsaQXEfw4enxyu0wQLkpHpz+ftMERwaJzMResu6kVdVmolz9WpxzJxL1Xx1CYOr4V05lu7viEu5wvk/J8L2UI="
+            }
+        },
+        "G2": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2613.5,
+                "y": 72.0,
+                "z": 1044.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MTQ0NzI4ODc3MjUsInByb2ZpbGVJZCI6ImJkM2M2NDhiZDZhMDRmMDM5NDkzMjc1MzVjYjgzMWViIiwicHJvZmlsZU5hbWUiOiJFbW1hYVBsYXl6Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MzJiODU4MWVhNGFjYmY0M2E3ZTM5ZTM5NDI0ODM2ZTE2YzQ2OWM1MGNiYjM4Yzg1ZmJhODg1ZDY5ZDJhNyJ9fX0=",
+                "signature": "BoVARBiJxpPPUCClokHYhPQvNxZgWZNyvxW85ubGWm4aD9JsCxI3jH1ao8TI5L1Mcc6UwgK+ChCAOFfqIz4t6aG0rpoO9zersW9sEq04Ak5VRhqn7DsnscLGWCEO9TV4hGYf1zsZWmFMogdkS0gI/uH549yZVWvHIQPMfyzBwcL20xp1Jkae/uetRGdXTwlJgwkR4t3UQqSyAVFNUHvNK4nw/ibFkZcfBdo/crbdJsQtb7Kcdaf+XfF3hih6sLqIGboDq+6/xAp4uVcU0p+4DRf9wmGsDg+xuvmL77gE+m8pGYlzy19fjjra8mFEYmaBj8N0m0ohuxOtGNlxP2wgoT8PzSGc6+TG5mbnA9Cvwwqnl+RF4Dhb1m3DBVzXi6isyAfgUfGKp3ggrwUqgBp/Pq3junPyaEciT/ls+vAazx4aVcxG/pSGCLFuvlF7Kpp/TnPpnSx2CNFlovGOsfzJGwFpw/iqqsH/3PJdPyDgGiSJnVyE/DlcseygA6QXVZTEes2bm5HOfLxsHXGWgSGi59hl+jZwxnqPMgCeEIM3ET9GEaXqnVg6C7EPblPSP2tNtPZLWHrteSM0AxaluXYToDqKeceb+npoFhMn7ySztT4kZiR2genq/Fc7awBNAE9hefKIU1UC5jWJdcG9dNk0vMVg21LHy6nGmCXAchQQX1Y="
+            }
+        },
+        "G3": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2610.5,
+                "y": 72.0,
+                "z": 1059.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MTcwNDI1ODkwMzcsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMTRiZjZhZjc2NDA1M2NkM2U3NzdmZjcxNGI1YzFiNzZkMTg1ZjJjZjZhOTk3NThjYTA3MGE5ZmUyOGQ2ODQifX19",
+                "signature": "m9ZBEZJ+9OglqLtnYhp++89EKPNC9vg16oKaKjAHiW5kEXYpWeLiR2YYEYNyQF3g3+GQJkgMYb9gMUdAPluaR21CA9a8X0zHgGk4Fb6uiH+Tsq3Arg97FdWq4nIj4E6ruMYhJRNLBA0m7dJw9J9b5wRU9YCDPDrRL1eYNLW4RjuHLzLVnQo6BlPLj/QIdhRB0X5cPXdqlh4EvG5uh/N0sGNeXziTQsu6yqvLPnMxm8cW2dq0gdX0wqByM8T5spkdtjV7O/dScaS/uVigsT2lsYqugZW4/iFrPqjLES63BBIaaZDz0NU9zDv7jVxnqO8MC1T3qDT2qjQPqX01K/+CZhfmnIGoaQVZEOInCpmZlClkxAN7xY0+yScxxEEBM21FGYPIDUHgblA3f49WuSA2lCJgtTaYPbx61lX6sfKzTQZJlL6m0+PnP5+If6FhKHKqT0Puq5K5yIEkvnkB9mPFWHRcHbuADFSYm1zjGmXyFHJLAJQJRbRtxyL1nZtLuJmU++++HmmP7J1Ew9C53uWHBO9XK4MwFXLMeeRGAXkUg2aAzE1LuEbu8m8B+R3RrnZqI1X6M2tSkljKIzaq0uL0CcEoa1fAQarsH+S7TNAPUadKAKtDrjXjzGxJdJZ8V+RtouLnU+ooB3UYpQoUPXl7t3jSymnXn+dOovUL3sAcwyM="
+            }
+        },
+        "G4": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2610.5,
+                "y": 72.0,
+                "z": 1061.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM1NjE1NTM0NDQsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNmYWNhNGMyNTEwM2YyNDRlNGRiMDhhMmMxOWU3M2RkZjkzZTVlNmYzNGZkZTZmMjkxMWZlY2RiNWIxMjQxMSJ9fX0=",
+                "signature": "Ap3898xZhvRnG4x+yTU2JASCEjisxEYFeKtJTUHVhk4YcUpKDGr/heToHuVYP3R+N5Lrg2jcsoAibYivIY38TI1Sindvr8r1ELkU7W020Ro37cWQwAROc5iUKpUsQ/lsYkmGjhkdDQH2+tZFUQ6zJkBkKHR9pYlS3+wDxUw3cnmhAgBejzccLiv356zKaIAhNYPgcBamKPJg68yJKlINAfwOjv0Dua6IOsaBhdHL+FClXZbINYuV6OHmKZPAt6+69Kau7nyzLVMMt3j/E4zUeCCk77YIEDRNwmR6sHjK00QaxBimHOow9MAnmWyRfZGgto+1TCSe8ekjJLr8ylo5Tj7Xba84l9ZtCcKUpG1SQNjsZ+HS8xZ7X0FKZYOTd4RUj1AFLH07XkHK4ICbTdLPRn1KI2uVGfTGr83vfRSeRY0YBfCeeXccRj98ShLRTOda1qqBRtyngXWN5BDUeCeZAOcHaK4aw2G6W2gmF3o3HzEQ9kr0ak/wi1S6NEj3RMJ7RymxPPwNImhToCOFajH1FprEu563Lp7PFj7NGb/kFmCjgK10WI4wjFgR9ihj5wD/uJutsFGZ+TtmG9544BXxgkcIl9GzZa6EPZlijbNHCKKb2VC3rxqPcKphpPukKXZaog0OJaf0kYdXoXI917hCxQ0lViHL8wplHOT8YNkX3Y8="
+            }
+        },
+        "G5": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2610.5,
+                "y": 72.0,
+                "z": 1063.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MjcyODA0Mzg1MTAsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjU5MGU5ZDZhZWRhZjIyNzY3YTI4OWU5NTU2OWQ0NDBjZjlkM2M0MjE0ODI2MTU5MjMxODU4MTcyMzU1NGNjIn19fQ==",
+                "signature": "kyICm8718pMGTjpPlFngZ/9jYyWzi7IHt1Rq0/eI04GoSGMU5hPENQXBdFsjcoOBGBrmlmD3m9/M4x2i3QLCh6Wz/Fz4Hxl1lISnoe9hd8e99gsjXpL+6AfidyFN+YEctdOWjZ99EY9VPMXPfg5PijQ2Ill2JiaadXHakVJQnD2ZMTFgHNsum65DaJ00V94HzAYZRAzWiC5FCP824hRWq9qnRa2meqXdbBycNZjdFaKgo2AeLFv/5yDndFE7DRZuWEM1lQpxZ6NVxA02INWnERsHDzDayVMWxf1RCb38YdfGuPm4NuXZZS/oqbQ3AIorZxLTBvGafFlXnIWQhfmt9LPwZcmc/QJ+YzewLUkUZ7xDI0xbPkv1XklYg2rYfe/dtkwroANNCCqY+mSpbzzJ0ZowarinIqC0G1DGFdgl4bERuG9VbEYQHTkUwJ408+NMNWYGDnZKCHvPM/0JtFQ/z2+z6Bg6KHpIhjVYdQW08PIo+mBhJFHOjVtEUq79bVfs56y3W8uceit7oTzjzXk6yNiCADulqCOCDZPxqu7htv0RkUbHvRrhNlqyZchADsMsnSWrwdfRI3g9kRS7EHLBO9mc3uzukpQFbr/u1UuJxTmOj2bGu/ezGGxXJ8BsL5P2AQWToasVvqokD/RXEFpvdhx0xoFb7jKBNbX32kmAb9g="
+            }
+        },
+        "G6": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2610.5,
+                "y": 72.0,
+                "z": 1065.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM1NjE2MDg2MTMsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4OWY1MzgwOGJjZTVmNDRiZGYzYWY3NzY3ZGVmYzE0OTdhM2UyYWFhZjQwOTU3MDdiODdkMDRmYjJkMWMyMWUifX19",
+                "signature": "iRWxP/7QNpKQ0e1QaRxtUlcrZ3maDvwxgmspEi4wPT1IzvVN7dw9KNbJUX1JTCw5r3v/INZygvcO2Y1zF5+43MUsWcVWZ5+4zQ9Fd7xFia/X0IVAwxrWiFQ+kqV7nqHO7RHAxEyaQBsS+mKmyhl17SX8leIrtH82G859nEPRapBmYOWalO4pXyPaYkitOLQUMr33817gpLd60mfSAbNabGEsXAfMCvG/Y67zZY9IoFSyUbVEg6Yxmq+gZiB488V51LyQye/qYLSMk91uZUEhc1vUo4IQ4ytYaPurpE3VQrsyy7+k4RGXc6aAiWfTx4N4K6RcIlqXINtoILQVKuxnJYMlLVNOGTJnDcLEvBkDTsUjq8L6XXEpmjgkN3grY3Ak5kOh4X0IUb7vNZjf49MCYkVM7ymx2+zr6d0WkBJNYJ9b3FPZYfOo3cXjdaNybhRWQ2HI/Sv648+StcEqeJDk01ZeCTSN/xHMjelHMb15cexLRMTn2oxPydPB5Mvor9dFAD3wkeXybpvLDeL9jrJWcCeR/TgVecv/bWS9XPG5dLqOe5eKCBCOP/k4XotmameNhAZwgxb+ICxThnYO9yyGlQ/tWYwmzIWaf3oiAwRw+XbbYFz0VibBDnWRdY3J77BWnU3YcWFIhbn1Mui0o0usa/90bInYeEhMsP16zJwH/EA="
+            }
+        },
+        "G7": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2604.5,
+                "y": 72.0,
+                "z": 1054.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ3MDM1NTUyNzEsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNWFkMDFmZjExOWFmMTE1ZDNhMDlhNTBlYmJiNjI4ZDEyZGI3NTMxZDI1MjMyYTA5MzM3ZmMxZWM4MjZjMjRlIn19fQ==",
+                "signature": "fj1GyO8ZTJIgRAs0+SC6eBCZAOC5dP9o9AI8HhbK4VbrYoryZa0rgXPogxBC+81/y+8Do+8Za/jUjCgtesa1ARp507Slyt3mwCPet9RP5m+yyqke0AcEphcbAlTjNOybWRO0totw8uqhajs9F0LXGSwl9Ja9qjEp2MXm/hnrmKZItHLTAgPvhn0moLdjINskr3BL+PylId/FfybR+1OXknh3Lb0BnIFwac4tegd0GKamtddnv5jT1LTdgeeY8niVWRX51X/aaffd6iDl0WDRDpoiZe0qkilPSRtHm6ZEtuGgFTZ7BMDJINDedQYndmrBuMH6xBrABFhEsdweUAyyq4965YLEVLXK58naGKOQVBUCzm9xCH2Th2xsf9ps6DauOauken8F8nNUpVqDD8X20fITiAaJQRdOaoc03OARhAGtpGAIglHrWB2ihOomeJhb5V8Yltgk0feOiWU5LHL4DWw0C9tHJCFuNnNORdEnXCcThQCxmdXHcAjRBm9QZYwv5mTB+jiKLJ6SZrsuta5WjaZBTtozqn6oG7LP+QD4B8WDBt89JeqLE7Ix2BqpHWckgmOT3iMrSVL3ltdrNXU1GeXA+JIlFVVEK6Px38theH7Qqrt57qol/ow0S57VQSdWISPYNoBaFlOGjKzZOHLtfigMpoc/PkG2CbFUiWXDCkI="
+            }
+        },
+        "G8": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2602.5,
+                "y": 72.0,
+                "z": 1054.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM1NjE2NzczMjcsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1NDE3NjVjZGZlMTE0NzkwNDM1MTQ5YzQ0M2RmMmY4NTcwZDAyNDRmOTUzOGM3YWEyYjc0N2NiYmZkM2I3ZSJ9fX0=",
+                "signature": "VF+vH/hftCKqubEaUqP6Mt5KL3RGKYuKaZhyVxg9HkNXhabW8RiAt+DHQJscezI4pWJY0G6kQIaEdvlqxEpOLnKqDVbU0tXG/b0OpIhevWQWIriMBYqE4SQJbcVfDqx1CT8XWYTg1kpI0zq5JsukDnyP9XRllWL4ogPivtmYbqFd1PpKr4glmHHyjg2SeatJcC4ze/B9yOj3m1w4NPDUriv9i1SrkdFOBcps04WwEJT0tN11YyeWOp699QYLisuOg6U0+OWWJsW6doFoAWr9yr0pOX4A+IStfh1kT21lWMeNAZUu26PYq9AxlQ/u772uZh5yBiJGsMTajTBJw/8K9q3niE2BLTN+R5D0qK7QdldHXcvmfaSQUQ50BwdvTQ1wqg9EGlrxyxKjYXR8UGjKsQPYH4k/WLMFGyiT+NHGKuFSCChws1ogiLwWzO/vrqwHapGIYGI/yA3AY1IdSKLjiZESO+um/s2xEX3HmRNpjzNUohvvlfo9+dfK4sRSzGlJCcSZ5kSogmtY1vfIF8UfebXjwajwZIgyQnUscEUzC49DP4r3F6WRYHHV//+8ByJfXBL5PM6T2CHkVKJcdbH5x/rXorZvCi2yCojoW9iI3BHMJOCkrW3zwN2Eq9RZo5W4o0IXE8N0AgdvDQtDtyJq0KR15E+cruHplGvEknM2qhA="
+            }
+        },
+        "G9": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2600.5,
+                "y": 72.0,
+                "z": 1054.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM0MTc3NTU4MDgsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0YTU3ZjdhNGZkNDM4Y2FkZWM4YWMwYTA0ODg0ZWI4YjQzZmVhOTM5ZWRiYTcwMDdlNDUyYzRiNDlhMDBhYjkifX19",
+                "signature": "n8tx5gKKuOlXQiCg0rUjxTHew2fVQJ/Y/IWl56gZkTCxA1faOFnFITYfPdNHQTYsnghyvXj1XeJQWzQDzILZ+tZfFYTLvBgn3WaEvmlvZRrwIfcY6lq0JnHO5w/G4+VURLKpySRlX++AudjikyXi2jz4lF52CE33avB8Y7UgsCD+TT6iGb6HlQoAm0UsOmLqGWkPgpr5JiIM62pvl+p2zHr3TWmaVfLw0cBhfBcf8g8mYFq4thVlyATa+A/cAGyTV5Z0g4j/NgZh5DgB+kt2jgHrtjM+Slpe+8khEEJQfooR1TMv0gVabJdczMyq3AaztCdwAA3Svzl5mY/3OIuzy44ANYcZxlB/qHLhq+T4WRgTTwCyTnLGcDeLfliW0lHrrnKzbLJ6qYY5haghCeYHeVHOrmIfK/A41+BbQJAsh+bebFbusOrQZwHWPvsrxpPq+SMMnzEaOfu3oQUsBVTp7SZTq8dBKJRe8lMZ4TS1SkAVDFrzMmt+WDHVCK2ZCRVCxTMrN9CWZhhoqnhuf/hP/eaLm71k8fFZzR9Ovi7LGxWY+ucs9Kl/m+Kp6xPcCNNj+mB0nTQ9m/fKTZH1KzD1++0u2+f1uzC2eE0huNyL6Ke2FDdQxU5EfDs/OJw6GErcQajN6vJ16kTw6XNf9d4sQFxFXagHbNIncqbs0yRfkvQ="
+            }
+        },
+        "G10": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2598.5,
+                "y": 72.0,
+                "z": 1054.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTMyNjE1NTY3MDksInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWZmMjE2NGQzOGRjNjkzZjU4OGQ1MDFjYzllNWJmZjY3YWU4MGUxMjllMmU4Yzc5NjBhMzUzZjlhODhiZmEwIn19fQ==",
+                "signature": "nqIqfwjrzA+qMW6moBGkPmC9PsLvZPYoZR1zD+6ZLpRtRf17anv969gJQ2F8E4gKCuZRHz1BGkZayQk/ubeDuuY17cwn8bIY2f0neUAPcxw0M0XUDiyuvoZiT3+jKpM5Sv0LPs5Jsj+anoE9IT1613oLTkrceFHJ1N6TDup3k9HkLQ3Cc5yQ2fomYW73YbmMk7JfBA03x5T9lt/MRyTLsdkqTypxMpGkeB6UGbOFGWzmzxSiy8220uE0TFDZsVXCD7ZNRA+S4rim4Usoj9bSMhjLf7ATHO3E5YKvNFP2326ghzWzzq911ADdrbcNPjoJdNKRweh1SK+tdz5Zb5XgCBPyTgGSe2Y7zbv3GBl9G3vzQ7VTGVuClVebkhUzhyQEdh5iFSy2miJXV4REqRhdhdO5izamyJN1Aj9D/G2Tvo4nrqIXkYTIr0hyGViefELxXaF/mCHNm5VI3gS1bMnxqbQwj0CPXB06nag60EGcj9AYEFjwPXZtM9r/XwWNPP6HxegKIEflSJQRzdnPqPJxMoZJ8kDLQGpQAfvv/2PlcxEbPxj7h6I/TmcIh5sul6tTGaGmFvrAAMawlK92z/QgqbmwkIg/FK/zRhkeGGL2JDBVXP85SSsJiLbWyl/2yGnNB/IbJ1rAW+kGWOwquEeX2ZB31PobusFqo53FKRQiKTs="
+            }
+        },
+        "G11": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2596.5,
+                "y": 72.0,
+                "z": 1054.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM1NjE3MzUzMTQsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkYmM5MmVmMDM0OGRiYmY2NGU5Mjk5MjE0YWFmOTA1NmM2NzFmYzZjYjk1NzA1NmE2YzhmMDQ5ZWE1ZGVlMzQifX19",
+                "signature": "Yz6rkfHUkr+om37kLqqhZWNVkj56dQ2+zzm3hlPUcO7LsnbF6RXCXe6Nshw5CSqbtl4NtH1R9OReB+OpmXiy3xP9++pDeuOYgHt1+mZiOGvco/eQo6bYnvC+VNiOFW67ISCykJfOLotTJwroTKs1QNVjRduBI6OGDk5wW0wg2MoPjNlUIe60LaAKYdFfChta0flWWNIcTKa2fsR0guk7QAYoP2525CLoOd0Za9+NcywZVCDEGxMF0G///ww0PQ+fZapmeI9ydTm7VmXGm9zzjyOD39lyKaqj3y0hft5/sJGy9slyois6/6vR5IE2QwQAk89445nknrHtjlfn1lm80wYlo6dUgcxEpXhwBKzcN0Dlj5EuH8rDasK81WKc5r8rkIEYV/uwxaGJlW4ZvVm8qcGTGyRsDZSpepnb2Hwpqu7QVLahYKz19A8w8Q9Iq2wKFqUaPG/CkjU0Mlm8P7OBHyRerrVuHuQXKo0/tgHMa4/B1n1b78VCXMvamtenkdtL5icCwfCbYKf6PTrypig3xD+WG8pukpnij8mf9kTVYUtLJ5SkSBXrtV5+vWnYbMfIPdROh4081bdrMOOKamGfO2icI7mQjEAVzWzWnPISy5dsvunMbOsLNM2A4k3hav9S2RVOHt45O0dsiCtsEAEca/bayfCTmVCdo5+/silzqFo="
+            }
+        },
+        "M1_NONAME": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2574.5,
+                "y": 65.0,
+                "z": 974.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MjM2OTcxNjE5OTgsInByb2ZpbGVJZCI6IjRlOTRmNDVjNzU5YzQyOTNhZjE2ZmRmMjE5MjM3YTVkIiwicHJvZmlsZU5hbWUiOiJNaW5lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM1NzQ0NGFkZTY0ZWM2Y2VhNjQ1ZWM1N2U3NzU4NjRkNjdjNWZhNjIyOTk3ODZlMDM3OTkzMTdlZTRhZCJ9fX0=",
+                "signature": "jqtLBCTa9sxx4m9uf21YYGCKiks1Vbrj34pKSzJYwb+ar212pmzBrjSguKPiaisbGF7CVvfEdm36sq2Oq9pd8CZreGg0BdRWh3fiJqpd1fM1/dBk/hx1X2HCvE4YXOMI5uzfJn2RRxwh9WhdiZ4oXmfU/+40w+vBfcf8tKc/xTGuSz2bnhOyYwQ6T33JpehBwBaBxK85KVbsoVcuedMsG9hMd1yw9FqYrg0bOmsQz/sM0v1NI8l/2dPDGE0lmoB+uKRXi7V9G64VZs4M2FHY8vIi1VAwjtVwlq233JTbYQrES/l8zz4STF8zRLnikO9B7J5pQd6lfjKwNGKeOzjeTi/F9KfpQcv3Jnqc5LOPRbCnE7fqNeF8GIPg2xyaomCvVO5QPf9uFsT5Oss42Rb/k9uUlMEmsq/zNDkymIKkrIq5MO3BcRJv6z0VoVL31PA5FKvjfNWriHieFxOCQBW0rH32dwWKm/nlGU3HcjLjQgWBmcZxJGDuHpK+YtyfRBT5zwmlXoaqIzdy7QxzeuPmTSiAV4MS3Msn5tMFgtXeNbn9ReDQ6gSFCvyVJDvTEq6AMf1y1lhAp3dcDh6ghKtHjaFO2NkXqW/2ZG3ar2lEgoAm/17sHaOISPbNAIO9uT5ovnJgIZZSDwspd7xbU9fiaBkL4ZiHgpUeSBTlwizq9Pk="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M1_NAME": {
+            "name": [
+                "&7&lMiner"
+            ],
+            "location": {
+                "x": 2574.5,
+                "y": 65.0,
+                "z": 974.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MjM2OTcxNjE5OTgsInByb2ZpbGVJZCI6IjRlOTRmNDVjNzU5YzQyOTNhZjE2ZmRmMjE5MjM3YTVkIiwicHJvZmlsZU5hbWUiOiJNaW5lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM1NzQ0NGFkZTY0ZWM2Y2VhNjQ1ZWM1N2U3NzU4NjRkNjdjNWZhNjIyOTk3ODZlMDM3OTkzMTdlZTRhZCJ9fX0=",
+                "signature": "jqtLBCTa9sxx4m9uf21YYGCKiks1Vbrj34pKSzJYwb+ar212pmzBrjSguKPiaisbGF7CVvfEdm36sq2Oq9pd8CZreGg0BdRWh3fiJqpd1fM1/dBk/hx1X2HCvE4YXOMI5uzfJn2RRxwh9WhdiZ4oXmfU/+40w+vBfcf8tKc/xTGuSz2bnhOyYwQ6T33JpehBwBaBxK85KVbsoVcuedMsG9hMd1yw9FqYrg0bOmsQz/sM0v1NI8l/2dPDGE0lmoB+uKRXi7V9G64VZs4M2FHY8vIi1VAwjtVwlq233JTbYQrES/l8zz4STF8zRLnikO9B7J5pQd6lfjKwNGKeOzjeTi/F9KfpQcv3Jnqc5LOPRbCnE7fqNeF8GIPg2xyaomCvVO5QPf9uFsT5Oss42Rb/k9uUlMEmsq/zNDkymIKkrIq5MO3BcRJv6z0VoVL31PA5FKvjfNWriHieFxOCQBW0rH32dwWKm/nlGU3HcjLjQgWBmcZxJGDuHpK+YtyfRBT5zwmlXoaqIzdy7QxzeuPmTSiAV4MS3Msn5tMFgtXeNbn9ReDQ6gSFCvyVJDvTEq6AMf1y1lhAp3dcDh6ghKtHjaFO2NkXqW/2ZG3ar2lEgoAm/17sHaOISPbNAIO9uT5ovnJgIZZSDwspd7xbU9fiaBkL4ZiHgpUeSBTlwizq9Pk="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M2": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2561.5,
+                "y": 44.0,
+                "z": 960.5,
+                "yaw": 107,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDk4NTkxMjk3MTQsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZDZhNjNhMjcwYmQxYmM0NzYxNWEyYWZmOTI3YTBlZjI4ODM5YzZhMDFjZGMxZWYzMmQ1MjEwNWJhZjk2NCJ9fX0=",
+                "signature": "Da8uDJGkiS2iYAX0mOaY6fQ0JS0nG7ljNYL33lJkuMXvL+IXfx9sI4kRJI4nC9HgSR9VET04EVfCLsK+P20mA+sCQwVTV18PlvX6JsH/i/n7S0g0/7NFSPu0p1+1TDa/MZOW/sd8Sqa1OyE8/R8LZ+0iJJV5c24lK8XKXtYjuG49lK0E8X/rnLN9ohZg1t8zdftuIf8K+RlDZb2bySUcBYYqCTDybZGqVVPY4LKtFUbpjc64r0C9NvCQCvIyTvqzxiB18ONBA+lGORq5BWgcyBJ3QUNyAgO12sbbNxMUAMCSSFUPa3DU8wohpDrv0tjUeig2K+oU3BO7Cy+cHrYVzlTtafMaBm9UG7R3KnAJFG077hoQ/OLh/Ub/A5kRVMMRGmZbY3yB+lrx6terz1GnM973LemAcJtERyIKuWZOYdGyJllucKs6fXx0fmy/PcaDz0RY/aiJ7FCd/yMzfHpYzvAPa3QqRaHwsMCjIuZgHEot3cF8FasXAmG3h+cmJjE/UQyPwbssADP47dyfa0f/jZAQYWrRBj5BjaSMLexbprJVVkRBnrYiwmo4+bHvAfNpn/tx92R0lleJm7NQeN7vjcPi9LYxfRMvJdz3Q+xJ+DVpVX+2F0tjQvQBaWtZZ0Ezq+l1yTwOZydNzrNsoDtlnjm6YQS8ym4klZQmzgB+wGk="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M3": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2556.5,
+                "y": 44.0,
+                "z": 949.5,
+                "yaw": 0,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDYyOTQ3MzQ1OTYsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMmUyYjk0NWJkZmRlNzZiOGM3MjU2ZjZmZGRjM2IxYzY4NTY4NTE2NTI4ZjJhZDZmNTcxMzI0YjllNDcyNmMifX19",
+                "signature": "oGEaEIpRKLORwij60JqRyYRE3sEOhOm/mvKigampSejw0+IIQZSl9LORAZujCgL/H5x1TBN+uTs22ThLcsqs0f3fcTjo9Trlim8OMU2Z66ZkZ54BGX4wBABr5fDvwTnhqNG06KYq0vYr0/VQbJ78FfJdrJWKZsrpCYRs3jmcc6Y4TG2JKUErEO4uy7SpIo/oAtLHPMJKSXmtud0JyVUZu22wrj2sRRe1QZCqQr+/bdVxWSWfni6I9gvKLMdIbIJEnINLm0ZtYFMcjGRNbCS9dmCq8U2mv7Av6mXXpg0zQCicKxFHiNB0xOZFiggEXTkQsk8XOPCcYMfB7iOxEj59nYZoOFzuxU81X69GZ9N0fU0Hg3mD8mGYrymvSHp6vhsAtst6/3c+fjQgIe9xePgZhFlkQa5DfcGvonlTC8bKxSvy5gDkNcXo8Qp970abY5ZF4heNkXblOwV6uyQv3kYYIX9NPr/T2FTSKpO2Xp/3W8mnYvcVIAkwRMazXLRS6dJKEUo1sNdViozR43Ixr8T9jf09vyuANNISHA0r4B3JZy3U9mtp84AldGNcsTvnjL5UEweVcdwRsc7sIe60NDya42xi/sTsUtDBOItbNGuhmG6H6XfAHdu2wKaFINgPGF9wq7dRIE3dMUr0XDWLhLEGVphg/vJpuk6+qLx358a51qo="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M4": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2545.5,
+                "y": 44.0,
+                "z": 944.5,
+                "yaw": 180,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDk4NTkxMjk3MTQsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZDZhNjNhMjcwYmQxYmM0NzYxNWEyYWZmOTI3YTBlZjI4ODM5YzZhMDFjZGMxZWYzMmQ1MjEwNWJhZjk2NCJ9fX0=",
+                "signature": "Da8uDJGkiS2iYAX0mOaY6fQ0JS0nG7ljNYL33lJkuMXvL+IXfx9sI4kRJI4nC9HgSR9VET04EVfCLsK+P20mA+sCQwVTV18PlvX6JsH/i/n7S0g0/7NFSPu0p1+1TDa/MZOW/sd8Sqa1OyE8/R8LZ+0iJJV5c24lK8XKXtYjuG49lK0E8X/rnLN9ohZg1t8zdftuIf8K+RlDZb2bySUcBYYqCTDybZGqVVPY4LKtFUbpjc64r0C9NvCQCvIyTvqzxiB18ONBA+lGORq5BWgcyBJ3QUNyAgO12sbbNxMUAMCSSFUPa3DU8wohpDrv0tjUeig2K+oU3BO7Cy+cHrYVzlTtafMaBm9UG7R3KnAJFG077hoQ/OLh/Ub/A5kRVMMRGmZbY3yB+lrx6terz1GnM973LemAcJtERyIKuWZOYdGyJllucKs6fXx0fmy/PcaDz0RY/aiJ7FCd/yMzfHpYzvAPa3QqRaHwsMCjIuZgHEot3cF8FasXAmG3h+cmJjE/UQyPwbssADP47dyfa0f/jZAQYWrRBj5BjaSMLexbprJVVkRBnrYiwmo4+bHvAfNpn/tx92R0lleJm7NQeN7vjcPi9LYxfRMvJdz3Q+xJ+DVpVX+2F0tjQvQBaWtZZ0Ezq+l1yTwOZydNzrNsoDtlnjm6YQS8ym4klZQmzgB+wGk="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M5": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2538.5,
+                "y": 42.0,
+                "z": 963.5,
+                "yaw": 0,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDYyOTQ3MzQ1OTYsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMmUyYjk0NWJkZmRlNzZiOGM3MjU2ZjZmZGRjM2IxYzY4NTY4NTE2NTI4ZjJhZDZmNTcxMzI0YjllNDcyNmMifX19",
+                "signature": "oGEaEIpRKLORwij60JqRyYRE3sEOhOm/mvKigampSejw0+IIQZSl9LORAZujCgL/H5x1TBN+uTs22ThLcsqs0f3fcTjo9Trlim8OMU2Z66ZkZ54BGX4wBABr5fDvwTnhqNG06KYq0vYr0/VQbJ78FfJdrJWKZsrpCYRs3jmcc6Y4TG2JKUErEO4uy7SpIo/oAtLHPMJKSXmtud0JyVUZu22wrj2sRRe1QZCqQr+/bdVxWSWfni6I9gvKLMdIbIJEnINLm0ZtYFMcjGRNbCS9dmCq8U2mv7Av6mXXpg0zQCicKxFHiNB0xOZFiggEXTkQsk8XOPCcYMfB7iOxEj59nYZoOFzuxU81X69GZ9N0fU0Hg3mD8mGYrymvSHp6vhsAtst6/3c+fjQgIe9xePgZhFlkQa5DfcGvonlTC8bKxSvy5gDkNcXo8Qp970abY5ZF4heNkXblOwV6uyQv3kYYIX9NPr/T2FTSKpO2Xp/3W8mnYvcVIAkwRMazXLRS6dJKEUo1sNdViozR43Ixr8T9jf09vyuANNISHA0r4B3JZy3U9mtp84AldGNcsTvnjL5UEweVcdwRsc7sIe60NDya42xi/sTsUtDBOItbNGuhmG6H6XfAHdu2wKaFINgPGF9wq7dRIE3dMUr0XDWLhLEGVphg/vJpuk6+qLx358a51qo="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M6": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2528.5,
+                "y": 43.0,
+                "z": 960.5,
+                "yaw": 90,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDk4NTkxMjk3MTQsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZDZhNjNhMjcwYmQxYmM0NzYxNWEyYWZmOTI3YTBlZjI4ODM5YzZhMDFjZGMxZWYzMmQ1MjEwNWJhZjk2NCJ9fX0=",
+                "signature": "Da8uDJGkiS2iYAX0mOaY6fQ0JS0nG7ljNYL33lJkuMXvL+IXfx9sI4kRJI4nC9HgSR9VET04EVfCLsK+P20mA+sCQwVTV18PlvX6JsH/i/n7S0g0/7NFSPu0p1+1TDa/MZOW/sd8Sqa1OyE8/R8LZ+0iJJV5c24lK8XKXtYjuG49lK0E8X/rnLN9ohZg1t8zdftuIf8K+RlDZb2bySUcBYYqCTDybZGqVVPY4LKtFUbpjc64r0C9NvCQCvIyTvqzxiB18ONBA+lGORq5BWgcyBJ3QUNyAgO12sbbNxMUAMCSSFUPa3DU8wohpDrv0tjUeig2K+oU3BO7Cy+cHrYVzlTtafMaBm9UG7R3KnAJFG077hoQ/OLh/Ub/A5kRVMMRGmZbY3yB+lrx6terz1GnM973LemAcJtERyIKuWZOYdGyJllucKs6fXx0fmy/PcaDz0RY/aiJ7FCd/yMzfHpYzvAPa3QqRaHwsMCjIuZgHEot3cF8FasXAmG3h+cmJjE/UQyPwbssADP47dyfa0f/jZAQYWrRBj5BjaSMLexbprJVVkRBnrYiwmo4+bHvAfNpn/tx92R0lleJm7NQeN7vjcPi9LYxfRMvJdz3Q+xJ+DVpVX+2F0tjQvQBaWtZZ0Ezq+l1yTwOZydNzrNsoDtlnjm6YQS8ym4klZQmzgB+wGk="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M7": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2522.5,
+                "y": 50.0,
+                "z": 974.5,
+                "yaw": 25,
+                "pitch": -15
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDYyOTQ3MzQ1OTYsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMmUyYjk0NWJkZmRlNzZiOGM3MjU2ZjZmZGRjM2IxYzY4NTY4NTE2NTI4ZjJhZDZmNTcxMzI0YjllNDcyNmMifX19",
+                "signature": "oGEaEIpRKLORwij60JqRyYRE3sEOhOm/mvKigampSejw0+IIQZSl9LORAZujCgL/H5x1TBN+uTs22ThLcsqs0f3fcTjo9Trlim8OMU2Z66ZkZ54BGX4wBABr5fDvwTnhqNG06KYq0vYr0/VQbJ78FfJdrJWKZsrpCYRs3jmcc6Y4TG2JKUErEO4uy7SpIo/oAtLHPMJKSXmtud0JyVUZu22wrj2sRRe1QZCqQr+/bdVxWSWfni6I9gvKLMdIbIJEnINLm0ZtYFMcjGRNbCS9dmCq8U2mv7Av6mXXpg0zQCicKxFHiNB0xOZFiggEXTkQsk8XOPCcYMfB7iOxEj59nYZoOFzuxU81X69GZ9N0fU0Hg3mD8mGYrymvSHp6vhsAtst6/3c+fjQgIe9xePgZhFlkQa5DfcGvonlTC8bKxSvy5gDkNcXo8Qp970abY5ZF4heNkXblOwV6uyQv3kYYIX9NPr/T2FTSKpO2Xp/3W8mnYvcVIAkwRMazXLRS6dJKEUo1sNdViozR43Ixr8T9jf09vyuANNISHA0r4B3JZy3U9mtp84AldGNcsTvnjL5UEweVcdwRsc7sIe60NDya42xi/sTsUtDBOItbNGuhmG6H6XfAHdu2wKaFINgPGF9wq7dRIE3dMUr0XDWLhLEGVphg/vJpuk6+qLx358a51qo="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M8": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2553.5,
+                "y": 40.0,
+                "z": 984.5,
+                "yaw": 90,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDk4NTkxMjk3MTQsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZDZhNjNhMjcwYmQxYmM0NzYxNWEyYWZmOTI3YTBlZjI4ODM5YzZhMDFjZGMxZWYzMmQ1MjEwNWJhZjk2NCJ9fX0=",
+                "signature": "Da8uDJGkiS2iYAX0mOaY6fQ0JS0nG7ljNYL33lJkuMXvL+IXfx9sI4kRJI4nC9HgSR9VET04EVfCLsK+P20mA+sCQwVTV18PlvX6JsH/i/n7S0g0/7NFSPu0p1+1TDa/MZOW/sd8Sqa1OyE8/R8LZ+0iJJV5c24lK8XKXtYjuG49lK0E8X/rnLN9ohZg1t8zdftuIf8K+RlDZb2bySUcBYYqCTDybZGqVVPY4LKtFUbpjc64r0C9NvCQCvIyTvqzxiB18ONBA+lGORq5BWgcyBJ3QUNyAgO12sbbNxMUAMCSSFUPa3DU8wohpDrv0tjUeig2K+oU3BO7Cy+cHrYVzlTtafMaBm9UG7R3KnAJFG077hoQ/OLh/Ub/A5kRVMMRGmZbY3yB+lrx6terz1GnM973LemAcJtERyIKuWZOYdGyJllucKs6fXx0fmy/PcaDz0RY/aiJ7FCd/yMzfHpYzvAPa3QqRaHwsMCjIuZgHEot3cF8FasXAmG3h+cmJjE/UQyPwbssADP47dyfa0f/jZAQYWrRBj5BjaSMLexbprJVVkRBnrYiwmo4+bHvAfNpn/tx92R0lleJm7NQeN7vjcPi9LYxfRMvJdz3Q+xJ+DVpVX+2F0tjQvQBaWtZZ0Ezq+l1yTwOZydNzrNsoDtlnjm6YQS8ym4klZQmzgB+wGk="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M9": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2505.5,
+                "y": 46.0,
+                "z": 977.5,
+                "yaw": 45,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDYyOTQ3MzQ1OTYsInByb2ZpbGVJZCI6IjQzYTgzNzNkNjQyOTQ1MTBhOWFhYjMwZjViM2NlYmIzIiwicHJvZmlsZU5hbWUiOiJTa3VsbENsaWVudFNraW42Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMmUyYjk0NWJkZmRlNzZiOGM3MjU2ZjZmZGRjM2IxYzY4NTY4NTE2NTI4ZjJhZDZmNTcxMzI0YjllNDcyNmMifX19",
+                "signature": "oGEaEIpRKLORwij60JqRyYRE3sEOhOm/mvKigampSejw0+IIQZSl9LORAZujCgL/H5x1TBN+uTs22ThLcsqs0f3fcTjo9Trlim8OMU2Z66ZkZ54BGX4wBABr5fDvwTnhqNG06KYq0vYr0/VQbJ78FfJdrJWKZsrpCYRs3jmcc6Y4TG2JKUErEO4uy7SpIo/oAtLHPMJKSXmtud0JyVUZu22wrj2sRRe1QZCqQr+/bdVxWSWfni6I9gvKLMdIbIJEnINLm0ZtYFMcjGRNbCS9dmCq8U2mv7Av6mXXpg0zQCicKxFHiNB0xOZFiggEXTkQsk8XOPCcYMfB7iOxEj59nYZoOFzuxU81X69GZ9N0fU0Hg3mD8mGYrymvSHp6vhsAtst6/3c+fjQgIe9xePgZhFlkQa5DfcGvonlTC8bKxSvy5gDkNcXo8Qp970abY5ZF4heNkXblOwV6uyQv3kYYIX9NPr/T2FTSKpO2Xp/3W8mnYvcVIAkwRMazXLRS6dJKEUo1sNdViozR43Ixr8T9jf09vyuANNISHA0r4B3JZy3U9mtp84AldGNcsTvnjL5UEweVcdwRsc7sIe60NDya42xi/sTsUtDBOItbNGuhmG6H6XfAHdu2wKaFINgPGF9wq7dRIE3dMUr0XDWLhLEGVphg/vJpuk6+qLx358a51qo="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "M10": {
+            "name": [
+                ""
+            ],
+            "location": {
+                "x": 2514.5,
+                "y": 45.0,
+                "z": 982.5,
+                "yaw": -90,
+                "pitch": -25
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MDk4NTkxMjk3MTQsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZDZhNjNhMjcwYmQxYmM0NzYxNWEyYWZmOTI3YTBlZjI4ODM5YzZhMDFjZGMxZWYzMmQ1MjEwNWJhZjk2NCJ9fX0=",
+                "signature": "Da8uDJGkiS2iYAX0mOaY6fQ0JS0nG7ljNYL33lJkuMXvL+IXfx9sI4kRJI4nC9HgSR9VET04EVfCLsK+P20mA+sCQwVTV18PlvX6JsH/i/n7S0g0/7NFSPu0p1+1TDa/MZOW/sd8Sqa1OyE8/R8LZ+0iJJV5c24lK8XKXtYjuG49lK0E8X/rnLN9ohZg1t8zdftuIf8K+RlDZb2bySUcBYYqCTDybZGqVVPY4LKtFUbpjc64r0C9NvCQCvIyTvqzxiB18ONBA+lGORq5BWgcyBJ3QUNyAgO12sbbNxMUAMCSSFUPa3DU8wohpDrv0tjUeig2K+oU3BO7Cy+cHrYVzlTtafMaBm9UG7R3KnAJFG077hoQ/OLh/Ub/A5kRVMMRGmZbY3yB+lrx6terz1GnM973LemAcJtERyIKuWZOYdGyJllucKs6fXx0fmy/PcaDz0RY/aiJ7FCd/yMzfHpYzvAPa3QqRaHwsMCjIuZgHEot3cF8FasXAmG3h+cmJjE/UQyPwbssADP47dyfa0f/jZAQYWrRBj5BjaSMLexbprJVVkRBnrYiwmo4+bHvAfNpn/tx92R0lleJm7NQeN7vjcPi9LYxfRMvJdz3Q+xJ+DVpVX+2F0tjQvQBaWtZZ0Ezq+l1yTwOZydNzrNsoDtlnjm6YQS8ym4klZQmzgB+wGk="
+            },
+            "item": {
+                "material": "diamond pickaxe"
+            }
+        },
+        "T1": {
+            "name": [
+                "&8&lThief"
+            ],
+            "location": {
+                "x": 2600.5,
+                "y": 72.0,
+                "z": 1020.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ2ODgwOTgxNjMsInByb2ZpbGVJZCI6IjVjN2ZiNzhhMmQxMzQ5NTZhNWE1M2EyNGQ5NWY1YjRmIiwicHJvZmlsZU5hbWUiOiJQZWFyc29uSW5tYW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdkMzE3ZjMxOTk5YzNkNDQ1NTY5YTYxOTVlMjNkZmMzOTk4NTcwMzQwYjY2Y2IzNDNkYjg5NDVmYThiNzFlZDYifX19",
+                "signature": "lHLasT0a74/4FlAKdInOwciwalfWx5Qc3jGwsRUMNgYtpcHc9GL5K8CYxoLLdd1oqVPZSum9NJoWnW6SLWLa+IV8w1e9gr2GXdSpy8DKoi4q4+5OVjlGhru+nFV/APoZHqXn6HcHttFwow/0pqM+2wW14oxH1YM67bAdc3DvnrJA5HZL44anSwmsiZa03gdvygXXHhK1hTrxZe7U34nJNYPrGj8JWmbEnP6ZgO1oMpjYWiim75cB2chSVPUDqfNYcMNct1nqMXvsttcol+dbe8bwHvEAIpVUOwO5pzgL4lJ7UO+JThkVhkbDNcWgBeHufDTlgqc99LWzkxcJtRq6bSXsSjFEoa2mAGXXf5cxG6C/m6DInC8+SRDDo83VOR1VjjEYnUDCC++coZ8iA/OoUeeBGUk9y2Rro1R2rGM+kKIynXdFhgybGi+Qt2diMbhuSVRcXIuVhmBhlXnAUq+3kvvG7mm44ZygB0HJRzSinxCqxcsvinVUfzyMAyFpcsG2kTFHjRQqAg4aecsfnHUMqKE6I9pc3h7/Fp0OKe01GLZm8N+r36/Q/oS22keSfzxNvyOdmHwToL4m4w9DBT/twQFu4UaGfD3IgAgShDmZ8ykFer+PnzOXrjBpCg2s4kazQ9JGF9pVb0CSzm2KlZlPEx8urxc27Zyhbzl4sUshgMw="
+            }
+        },
+        "T1_HAND": {
+            "name": [
+                "&8&lThief"
+            ],
+            "location": {
+                "x": 2595.5,
+                "y": 72.0,
+                "z": 1032.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ2ODgwOTgxNjMsInByb2ZpbGVJZCI6IjVjN2ZiNzhhMmQxMzQ5NTZhNWE1M2EyNGQ5NWY1YjRmIiwicHJvZmlsZU5hbWUiOiJQZWFyc29uSW5tYW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdkMzE3ZjMxOTk5YzNkNDQ1NTY5YTYxOTVlMjNkZmMzOTk4NTcwMzQwYjY2Y2IzNDNkYjg5NDVmYThiNzFlZDYifX19",
+                "signature": "lHLasT0a74/4FlAKdInOwciwalfWx5Qc3jGwsRUMNgYtpcHc9GL5K8CYxoLLdd1oqVPZSum9NJoWnW6SLWLa+IV8w1e9gr2GXdSpy8DKoi4q4+5OVjlGhru+nFV/APoZHqXn6HcHttFwow/0pqM+2wW14oxH1YM67bAdc3DvnrJA5HZL44anSwmsiZa03gdvygXXHhK1hTrxZe7U34nJNYPrGj8JWmbEnP6ZgO1oMpjYWiim75cB2chSVPUDqfNYcMNct1nqMXvsttcol+dbe8bwHvEAIpVUOwO5pzgL4lJ7UO+JThkVhkbDNcWgBeHufDTlgqc99LWzkxcJtRq6bSXsSjFEoa2mAGXXf5cxG6C/m6DInC8+SRDDo83VOR1VjjEYnUDCC++coZ8iA/OoUeeBGUk9y2Rro1R2rGM+kKIynXdFhgybGi+Qt2diMbhuSVRcXIuVhmBhlXnAUq+3kvvG7mm44ZygB0HJRzSinxCqxcsvinVUfzyMAyFpcsG2kTFHjRQqAg4aecsfnHUMqKE6I9pc3h7/Fp0OKe01GLZm8N+r36/Q/oS22keSfzxNvyOdmHwToL4m4w9DBT/twQFu4UaGfD3IgAgShDmZ8ykFer+PnzOXrjBpCg2s4kazQ9JGF9pVb0CSzm2KlZlPEx8urxc27Zyhbzl4sUshgMw="
+            },
+            "item": {
+                "material": "bone"
+            }
+        },
+        "T2": {
+            "name": [
+                "&8&lThief"
+            ],
+            "location": {
+                "x": 2579.5,
+                "y": 66.0,
+                "z": 1001.5,
+                "yaw": 180,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ2ODgwOTgxNjMsInByb2ZpbGVJZCI6IjVjN2ZiNzhhMmQxMzQ5NTZhNWE1M2EyNGQ5NWY1YjRmIiwicHJvZmlsZU5hbWUiOiJQZWFyc29uSW5tYW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdkMzE3ZjMxOTk5YzNkNDQ1NTY5YTYxOTVlMjNkZmMzOTk4NTcwMzQwYjY2Y2IzNDNkYjg5NDVmYThiNzFlZDYifX19",
+                "signature": "lHLasT0a74/4FlAKdInOwciwalfWx5Qc3jGwsRUMNgYtpcHc9GL5K8CYxoLLdd1oqVPZSum9NJoWnW6SLWLa+IV8w1e9gr2GXdSpy8DKoi4q4+5OVjlGhru+nFV/APoZHqXn6HcHttFwow/0pqM+2wW14oxH1YM67bAdc3DvnrJA5HZL44anSwmsiZa03gdvygXXHhK1hTrxZe7U34nJNYPrGj8JWmbEnP6ZgO1oMpjYWiim75cB2chSVPUDqfNYcMNct1nqMXvsttcol+dbe8bwHvEAIpVUOwO5pzgL4lJ7UO+JThkVhkbDNcWgBeHufDTlgqc99LWzkxcJtRq6bSXsSjFEoa2mAGXXf5cxG6C/m6DInC8+SRDDo83VOR1VjjEYnUDCC++coZ8iA/OoUeeBGUk9y2Rro1R2rGM+kKIynXdFhgybGi+Qt2diMbhuSVRcXIuVhmBhlXnAUq+3kvvG7mm44ZygB0HJRzSinxCqxcsvinVUfzyMAyFpcsG2kTFHjRQqAg4aecsfnHUMqKE6I9pc3h7/Fp0OKe01GLZm8N+r36/Q/oS22keSfzxNvyOdmHwToL4m4w9DBT/twQFu4UaGfD3IgAgShDmZ8ykFer+PnzOXrjBpCg2s4kazQ9JGF9pVb0CSzm2KlZlPEx8urxc27Zyhbzl4sUshgMw="
+            }
+        },
+        "T2_HAND": {
+            "name": [
+                "&8&lThief"
+            ],
+            "location": {
+                "x": 2579.5,
+                "y": 66.0,
+                "z": 1001.5,
+                "yaw": 180,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ2ODgwOTgxNjMsInByb2ZpbGVJZCI6IjVjN2ZiNzhhMmQxMzQ5NTZhNWE1M2EyNGQ5NWY1YjRmIiwicHJvZmlsZU5hbWUiOiJQZWFyc29uSW5tYW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdkMzE3ZjMxOTk5YzNkNDQ1NTY5YTYxOTVlMjNkZmMzOTk4NTcwMzQwYjY2Y2IzNDNkYjg5NDVmYThiNzFlZDYifX19",
+                "signature": "lHLasT0a74/4FlAKdInOwciwalfWx5Qc3jGwsRUMNgYtpcHc9GL5K8CYxoLLdd1oqVPZSum9NJoWnW6SLWLa+IV8w1e9gr2GXdSpy8DKoi4q4+5OVjlGhru+nFV/APoZHqXn6HcHttFwow/0pqM+2wW14oxH1YM67bAdc3DvnrJA5HZL44anSwmsiZa03gdvygXXHhK1hTrxZe7U34nJNYPrGj8JWmbEnP6ZgO1oMpjYWiim75cB2chSVPUDqfNYcMNct1nqMXvsttcol+dbe8bwHvEAIpVUOwO5pzgL4lJ7UO+JThkVhkbDNcWgBeHufDTlgqc99LWzkxcJtRq6bSXsSjFEoa2mAGXXf5cxG6C/m6DInC8+SRDDo83VOR1VjjEYnUDCC++coZ8iA/OoUeeBGUk9y2Rro1R2rGM+kKIynXdFhgybGi+Qt2diMbhuSVRcXIuVhmBhlXnAUq+3kvvG7mm44ZygB0HJRzSinxCqxcsvinVUfzyMAyFpcsG2kTFHjRQqAg4aecsfnHUMqKE6I9pc3h7/Fp0OKe01GLZm8N+r36/Q/oS22keSfzxNvyOdmHwToL4m4w9DBT/twQFu4UaGfD3IgAgShDmZ8ykFer+PnzOXrjBpCg2s4kazQ9JGF9pVb0CSzm2KlZlPEx8urxc27Zyhbzl4sUshgMw="
+            },
+            "item": {
+                "material": "bone"
+            }
+        },
+        "T3": {
+            "name": [
+                "&8&lThief"
+            ],
+            "location": {
+                "x": 2607.5,
+                "y": 72.0,
+                "z": 1052.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ2ODgwOTgxNjMsInByb2ZpbGVJZCI6IjVjN2ZiNzhhMmQxMzQ5NTZhNWE1M2EyNGQ5NWY1YjRmIiwicHJvZmlsZU5hbWUiOiJQZWFyc29uSW5tYW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdkMzE3ZjMxOTk5YzNkNDQ1NTY5YTYxOTVlMjNkZmMzOTk4NTcwMzQwYjY2Y2IzNDNkYjg5NDVmYThiNzFlZDYifX19",
+                "signature": "lHLasT0a74/4FlAKdInOwciwalfWx5Qc3jGwsRUMNgYtpcHc9GL5K8CYxoLLdd1oqVPZSum9NJoWnW6SLWLa+IV8w1e9gr2GXdSpy8DKoi4q4+5OVjlGhru+nFV/APoZHqXn6HcHttFwow/0pqM+2wW14oxH1YM67bAdc3DvnrJA5HZL44anSwmsiZa03gdvygXXHhK1hTrxZe7U34nJNYPrGj8JWmbEnP6ZgO1oMpjYWiim75cB2chSVPUDqfNYcMNct1nqMXvsttcol+dbe8bwHvEAIpVUOwO5pzgL4lJ7UO+JThkVhkbDNcWgBeHufDTlgqc99LWzkxcJtRq6bSXsSjFEoa2mAGXXf5cxG6C/m6DInC8+SRDDo83VOR1VjjEYnUDCC++coZ8iA/OoUeeBGUk9y2Rro1R2rGM+kKIynXdFhgybGi+Qt2diMbhuSVRcXIuVhmBhlXnAUq+3kvvG7mm44ZygB0HJRzSinxCqxcsvinVUfzyMAyFpcsG2kTFHjRQqAg4aecsfnHUMqKE6I9pc3h7/Fp0OKe01GLZm8N+r36/Q/oS22keSfzxNvyOdmHwToL4m4w9DBT/twQFu4UaGfD3IgAgShDmZ8ykFer+PnzOXrjBpCg2s4kazQ9JGF9pVb0CSzm2KlZlPEx8urxc27Zyhbzl4sUshgMw="
+            }
+        },
+        "POKE_RESTORE_1": {
+            "name": [
+                "&e&lMagnemite"
+            ],
+            "location": {
+                "x": 2575.5,
+                "y": 74.0,
+                "z": 1054.5,
+                "yaw": -135,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "pokemon": "magnemite"
+        },
+        "POKE_RESTORE_2": {
+            "name": [
+                "&e&lMagnemite"
+            ],
+            "location": {
+                "x": 2579.5,
+                "y": 74.0,
+                "z": 1054.5,
+                "yaw": 135,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "pokemon": "magnemite"
+        },
+        "POKE_RESTORE_3": {
+            "name": [
+                "&e&lMagnemite"
+            ],
+            "location": {
+                "x": 2575.5,
+                "y": 74.0,
+                "z": 1050.5,
+                "yaw": -45,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "pokemon": "magnemite"
+        },
+        "POKE_RESTORE_4": {
+            "name": [
+                "&e&lMagnemite"
+            ],
+            "location": {
+                "x": 2579.5,
+                "y": 74.0,
+                "z": 1050.5,
+                "yaw": 45,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "pokemon": "magnemite"
+        },
+        "G1C1": {
+            "name": [
+                "&f&lTodd",
+                "&7Casino Player"
+            ],
+            "location": {
+                "x": 2609.5,
+                "y": 72.0,
+                "z": 1051.5,
+                "yaw": 45,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ3MDM1NTUyNzEsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNWFkMDFmZjExOWFmMTE1ZDNhMDlhNTBlYmJiNjI4ZDEyZGI3NTMxZDI1MjMyYTA5MzM3ZmMxZWM4MjZjMjRlIn19fQ==",
+                "signature": "fj1GyO8ZTJIgRAs0+SC6eBCZAOC5dP9o9AI8HhbK4VbrYoryZa0rgXPogxBC+81/y+8Do+8Za/jUjCgtesa1ARp507Slyt3mwCPet9RP5m+yyqke0AcEphcbAlTjNOybWRO0totw8uqhajs9F0LXGSwl9Ja9qjEp2MXm/hnrmKZItHLTAgPvhn0moLdjINskr3BL+PylId/FfybR+1OXknh3Lb0BnIFwac4tegd0GKamtddnv5jT1LTdgeeY8niVWRX51X/aaffd6iDl0WDRDpoiZe0qkilPSRtHm6ZEtuGgFTZ7BMDJINDedQYndmrBuMH6xBrABFhEsdweUAyyq4965YLEVLXK58naGKOQVBUCzm9xCH2Th2xsf9ps6DauOauken8F8nNUpVqDD8X20fITiAaJQRdOaoc03OARhAGtpGAIglHrWB2ihOomeJhb5V8Yltgk0feOiWU5LHL4DWw0C9tHJCFuNnNORdEnXCcThQCxmdXHcAjRBm9QZYwv5mTB+jiKLJ6SZrsuta5WjaZBTtozqn6oG7LP+QD4B8WDBt89JeqLE7Ix2BqpHWckgmOT3iMrSVL3ltdrNXU1GeXA+JIlFVVEK6Px38theH7Qqrt57qol/ow0S57VQSdWISPYNoBaFlOGjKzZOHLtfigMpoc/PkG2CbFUiWXDCkI="
+            }
+        },
+        "G1C2": {
+            "name": [
+                "&f&lTodd",
+                "&7Casino Player"
+            ],
+            "location": {
+                "x": 2607.5,
+                "y": 72.0,
+                "z": 1039.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzQ3MDM1NTUyNzEsInByb2ZpbGVJZCI6IjQ2N2NmOTRkY2UyYjQ1ZTY4YmRhNTJlNTUwMmU3M2U4IiwicHJvZmlsZU5hbWUiOiJMaWxpeWFfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNWFkMDFmZjExOWFmMTE1ZDNhMDlhNTBlYmJiNjI4ZDEyZGI3NTMxZDI1MjMyYTA5MzM3ZmMxZWM4MjZjMjRlIn19fQ==",
+                "signature": "fj1GyO8ZTJIgRAs0+SC6eBCZAOC5dP9o9AI8HhbK4VbrYoryZa0rgXPogxBC+81/y+8Do+8Za/jUjCgtesa1ARp507Slyt3mwCPet9RP5m+yyqke0AcEphcbAlTjNOybWRO0totw8uqhajs9F0LXGSwl9Ja9qjEp2MXm/hnrmKZItHLTAgPvhn0moLdjINskr3BL+PylId/FfybR+1OXknh3Lb0BnIFwac4tegd0GKamtddnv5jT1LTdgeeY8niVWRX51X/aaffd6iDl0WDRDpoiZe0qkilPSRtHm6ZEtuGgFTZ7BMDJINDedQYndmrBuMH6xBrABFhEsdweUAyyq4965YLEVLXK58naGKOQVBUCzm9xCH2Th2xsf9ps6DauOauken8F8nNUpVqDD8X20fITiAaJQRdOaoc03OARhAGtpGAIglHrWB2ihOomeJhb5V8Yltgk0feOiWU5LHL4DWw0C9tHJCFuNnNORdEnXCcThQCxmdXHcAjRBm9QZYwv5mTB+jiKLJ6SZrsuta5WjaZBTtozqn6oG7LP+QD4B8WDBt89JeqLE7Ix2BqpHWckgmOT3iMrSVL3ltdrNXU1GeXA+JIlFVVEK6Px38theH7Qqrt57qol/ow0S57VQSdWISPYNoBaFlOGjKzZOHLtfigMpoc/PkG2CbFUiWXDCkI="
+            }
+        },
+        "G2C1": {
+            "name": [
+                "&f&lBilly",
+                "&7Casino Player"
+            ],
+            "location": {
+                "x": 2609.5,
+                "y": 72.0,
+                "z": 1053.5,
+                "yaw": 135,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM1NjE2NzczMjcsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1NDE3NjVjZGZlMTE0NzkwNDM1MTQ5YzQ0M2RmMmY4NTcwZDAyNDRmOTUzOGM3YWEyYjc0N2NiYmZkM2I3ZSJ9fX0=",
+                "signature": "VF+vH/hftCKqubEaUqP6Mt5KL3RGKYuKaZhyVxg9HkNXhabW8RiAt+DHQJscezI4pWJY0G6kQIaEdvlqxEpOLnKqDVbU0tXG/b0OpIhevWQWIriMBYqE4SQJbcVfDqx1CT8XWYTg1kpI0zq5JsukDnyP9XRllWL4ogPivtmYbqFd1PpKr4glmHHyjg2SeatJcC4ze/B9yOj3m1w4NPDUriv9i1SrkdFOBcps04WwEJT0tN11YyeWOp699QYLisuOg6U0+OWWJsW6doFoAWr9yr0pOX4A+IStfh1kT21lWMeNAZUu26PYq9AxlQ/u772uZh5yBiJGsMTajTBJw/8K9q3niE2BLTN+R5D0qK7QdldHXcvmfaSQUQ50BwdvTQ1wqg9EGlrxyxKjYXR8UGjKsQPYH4k/WLMFGyiT+NHGKuFSCChws1ogiLwWzO/vrqwHapGIYGI/yA3AY1IdSKLjiZESO+um/s2xEX3HmRNpjzNUohvvlfo9+dfK4sRSzGlJCcSZ5kSogmtY1vfIF8UfebXjwajwZIgyQnUscEUzC49DP4r3F6WRYHHV//+8ByJfXBL5PM6T2CHkVKJcdbH5x/rXorZvCi2yCojoW9iI3BHMJOCkrW3zwN2Eq9RZo5W4o0IXE8N0AgdvDQtDtyJq0KR15E+cruHplGvEknM2qhA="
+            }
+        },
+        "G2C2": {
+            "name": [
+                "&f&lBilly",
+                "&7Casino Player"
+            ],
+            "location": {
+                "x": 2600.5,
+                "y": 72.0,
+                "z": 1060.5,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NTM1NjE2NzczMjcsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY1NDE3NjVjZGZlMTE0NzkwNDM1MTQ5YzQ0M2RmMmY4NTcwZDAyNDRmOTUzOGM3YWEyYjc0N2NiYmZkM2I3ZSJ9fX0=",
+                "signature": "VF+vH/hftCKqubEaUqP6Mt5KL3RGKYuKaZhyVxg9HkNXhabW8RiAt+DHQJscezI4pWJY0G6kQIaEdvlqxEpOLnKqDVbU0tXG/b0OpIhevWQWIriMBYqE4SQJbcVfDqx1CT8XWYTg1kpI0zq5JsukDnyP9XRllWL4ogPivtmYbqFd1PpKr4glmHHyjg2SeatJcC4ze/B9yOj3m1w4NPDUriv9i1SrkdFOBcps04WwEJT0tN11YyeWOp699QYLisuOg6U0+OWWJsW6doFoAWr9yr0pOX4A+IStfh1kT21lWMeNAZUu26PYq9AxlQ/u772uZh5yBiJGsMTajTBJw/8K9q3niE2BLTN+R5D0qK7QdldHXcvmfaSQUQ50BwdvTQ1wqg9EGlrxyxKjYXR8UGjKsQPYH4k/WLMFGyiT+NHGKuFSCChws1ogiLwWzO/vrqwHapGIYGI/yA3AY1IdSKLjiZESO+um/s2xEX3HmRNpjzNUohvvlfo9+dfK4sRSzGlJCcSZ5kSogmtY1vfIF8UfebXjwajwZIgyQnUscEUzC49DP4r3F6WRYHHV//+8ByJfXBL5PM6T2CHkVKJcdbH5x/rXorZvCi2yCojoW9iI3BHMJOCkrW3zwN2Eq9RZo5W4o0IXE8N0AgdvDQtDtyJq0KR15E+cruHplGvEknM2qhA="
+            }
+        },
+        "SPAWN": {
+            "name": [
+				"&a❖&6&lWOULD YOU LIKE TO LEAVE?&a❖",
+                "&8&l》&6&lCLICK HERE&8&l《"
+            ],
+            "location": {
+                "x": 2602.5,
+                "y": 119.0,
+                "z": 1052.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "visible": false
+        },
+        "AERO_TP_SELECTION_REQUIREMENT": {
+            "name": [
+                "&6&lPokémon Selection Teleporter"
+            ],
+            "location": {
+                "x": 2609.5,
+                "y": 72.5,
+                "z": 1052.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "pokemon": "aerodactyl"
+        },
+        "FRAG_ONE": {
+            "name": [
+                "&f&lFRAGMENT"
+            ],
+            "location": {
+                "x": 2577.0,
+                "y": 71.8,
+                "z": 1051.9,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "visible": false,
+			"helmet": {
+				"material": "bone_block"
+			}
+        },
+        "FRAG_TWO": {
+            "name": [
+                "&f&lFRAGMENT"
+            ],
+            "location": {
+                "x": 2578.0,
+                "y": 71.8,
+                "z": 1052.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "visible": false,
+			"helmet": {
+				"material": "bone_block"
+			}
+        },
+        "FRAG_THREE": {
+            "name": [
+                "&f&lFRAGMENT"
+            ],
+            "location": {
+                "x": 2577.0,
+                "y": 71.8,
+                "z": 1053.1,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "visible": false,
+			"helmet": {
+				"material": "bone_block"
+			}
+        }
+    },
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "DRT6": false,
+        "F1": false,
+        "F2": false,
+        "F3": false,
+        "G1": false,
+        "G2": false,
+        "G3": false,
+        "G4": false,
+        "G5": false,
+        "G6": false,
+        "G7": false,
+        "G8": false,
+        "G9": false,
+        "G10": false,
+        "G11": false,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "T3": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false,
+        "G1C1": false,
+        "G1C2": false,
+        "G2C1": false,
+        "G2C2": false,
+        "SPAWN": false,
+        "AERO_TP_SELECTION_REQUIREMENT": false,
+		"FRAG_ONE": false,
+		"FRAG_TWO": false,
+		"FRAG_THREE": false
+    },
+    "HighlightClickEntity": [
+        "DRT1"
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Help [PLAYER]!!! ",
+            "&d&lDr Trayaurus": "I've been robbed!",
+            "&d&lDr Trayaurus": "I need your help!",
+            "&d&lDr Trayaurus": "Earlier today I went to the Casino to have some fun with my friends."
+        }
+    ],
+    "Delay": [
+        2.0
+    ],
+    "HidePlayer": [
+	
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": true,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Teleport": [
+        2594.5,
+        80.0,
+        1055.5,
+        -145,
+        35
+    ],
+    "Delay": [
+        1
+    ],
+    "Freeze": [
+        
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "We were having a great time playing BlackJack.",
+            "&d&lDr Trayaurus": "We all put some valuables as a wager which the winner of the game would then take.",
+            "&d&lDr Trayaurus": "After about 3 hours I had finally won the game!",
+            "&d&lDr Trayaurus": "I was so happy that I won and that I will be able to keep all the items.",
+            "&d&lDr Trayaurus": "My best friend &c&lMatt &rput something very valuable to him as the wager."
+        }
+    ],
+    "Delay": [
+        2.0
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": true,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "It was his 1 of a kind Fossil.",
+            "&d&lDr Trayaurus": "After all... We are all scientists."
+        }
+    ],
+    "Delay": [
+        2.0
+    ],
+    "MoveEntity": [
+        "F1",
+        2602.5,
+        72.0,
+        1048.5
+    ],
+    "Delay": [
+        1
+    ],
+    "EntityLook": [
+        "F1",
+        90,
+        0
+    ],
+    "Delay": [
+        2.0
+    ],
+    "MoveEntity": [
+        "DRT2",
+        2602.5,
+        72.0,
+        1044.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT2",
+        2602.5,
+        72.0,
+        1047.5
+    ],
+    "Delay": [
+        1
+    ],
+    "ProgressiveMoveEntity": [
+        "DRT2",
+        2601.5,
+        72.0,
+        1048.5
+    ],
+    "Delay": [
+        1
+    ],
+    "EntityLook": [
+        "DRT2",
+        -90,
+        0
+    ],
+    "Delay": [
+        0.5
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "He handed the Fossil to me and I decided to leave."
+        }
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": true,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        0.5
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Playing 3 hours straight of blackjack was tiring."
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "Unfreeze": [
+        
+    ],
+    "Delay": [
+        1
+    ],
+    "Teleport": [
+        2582.5,
+        76.0,
+        1055.5,
+        -130,
+        20
+    ],
+    "Delay": [
+        1
+    ],
+    "Freeze": [
+        
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT2_HAND",
+        2590.5,
+        72.0,
+        1052.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT2_HAND",
+        2585.5,
+        72.0,
+        1050.5
+    ],
+    "Delay": [
+        0.5
+    ],
+    "Unfreeze": [
+        
+    ],
+    "Delay": [
+        1
+    ],
+    "Teleport": [
+        2582.5,
+        77.0,
+        1033.5,
+        -40,
+        30
+    ],
+    "Delay": [
+        1
+    ],
+    "Freeze": [
+        
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT2_HAND",
+        2587.5,
+        72.0,
+        1034.5
+    ],
+    "Delay": [
+        1
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "I started going home when suddenly..."
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "Unfreeze": [
+        
+    ],
+    "Delay": [
+        1
+    ],
+    "Teleport": [
+        2591.5,
+        78.0,
+        1030.5,
+        -105,
+        43
+    ],
+    "Delay": [
+        1
+    ],
+    "Freeze": [
+        
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT2_HAND",
+        2595.5,
+        72.0,
+        1033.5
+    ],
+    "Delay": [
+        1
+    ],
+    "EntityLook": [
+        "DRT2_HAND",
+        180,
+        0
+    ],
+    "Delay": [
+        1
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "A Thief jumped out of no where."
+        }
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": true,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": false,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": true,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "T1",
+        2595.5,
+        72.0,
+        1020.5
+    ],
+    "Delay": [
+        1
+    ],
+    "EntityLook": [
+        "T1",
+        0,
+        0
+    ],
+    "Delay": [
+        0.5
+    ],
+    "MoveEntity": [
+        "T1",
+        2595.5,
+        72.0,
+        1032.5
+    ],
+    "Delay": [
+        0.5
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "He stole the 1 of a kind Fossil!"
+        }
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": true,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": false,
+        "T1_HAND": true,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "T1_HAND",
+        2593.5,
+        72.0,
+        1022.5
+    ],
+    "Delay": [
+        1
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Then he ran off before I could catch him."
+        }
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "T1_HAND",
+        2584.5,
+        72.0,
+        1020.5
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Unfreeze": [
+        
+    ],
+    "Teleport": [
+        2595.5,
+        72.0,
+        1032.5,
+        -45,
+        0
+    ],
+    "Objective": [
+        "Talk to Dr Trayaurus",
+        1
+    ],
+    "HighlightClickEntity": [
+        "DRT1"
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "I need your help getting it back!",
+            "[PLAYER]": "Sure thing! Of course I will help. ",
+            "[PLAYER]": "Do you have any idea where he went?",
+            "&d&lDr Trayaurus": "Yes, um...",
+            "&d&lDr Trayaurus": "I am pretty sure he ran toward the cave!",
+            "&d&lDr Trayaurus": "Be careful though..."
+        }
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        0.5
+    ],
+    "Teleport": [
+        2578.5,
+        69.0,
+        985.5,
+        160,
+        28
+    ],
+    "Delay": [
+        1
+    ],
+    "Freeze": [
+        
+    ],
+    "Delay": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "There are a bunch of Miners in there."
+        }
+    ],
+    "Delay": [
+        2.0
+    ],
+    "Unfreeze": [
+        
+    ],
+    "Teleport": [
+        2595.5,
+        72.0,
+        1032.5,
+        -45,
+        0
+    ],
+    "ShowPlayer": [
+        
+    ],
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": false,
+        "M1_NAME": true,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        1
+    ],
+    "Objective": [
+        "Talk to the Miner",
+        1
+    ],
+    "HighlightClickEntity": [
+        "M1_NAME"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Hey, can I ask you a quick question?",
+            "&7&lMiner": "Sure, whats up?",
+            "[PLAYER]": "Have you seen anyone unusual come in this cave?",
+            "[PLAYER]": "Possibly carrying a bag? With a Special Fossil?",
+            "&7&lMiner": "No, not that I know of..."
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&7&lMiner": "Although, their was this one guy who ran into the cave.",
+            "&7&lMiner": "I think he tripped and fell and ran back out though.",
+            "&7&lMiner": "Oh! And he had a bag!",
+            "&7&lMiner": "It looked like my bag!"
+        }
+    ],
+    "Delay": [
+        1
+    ],
+    "EntityLook": [
+        "M1_NAME",
+        -90,
+        50
+    ],
+    "Delay": [
+        1.0
+    ],
+    "EntityLookAtPlayer": [
+        "M1_NAME"
+    ],
+    "Dialog": [
+        {
+            "&7&lMiner": "I am pretty sure our Lead Miner put his bag somewhere in the cave since he left it.",
+            "&7&lMiner": "Sadly, I couldn't tell you where it is though or which it is...",
+            "&7&lMiner": "The Lead Miner just left.",
+            "&7&lMiner": "You can come back tomorrow and ask him if you want.",
+            "[PLAYER]": "No, but what if another Miner takes the bag home!",
+            "[PLAYER]": "Then I will never get the Fossil back!",
+            "&7&lMiner": "Sorry, [PLAYER]...",
+            "&7&lMiner": "I mean, you can look through all our bags if you want."
+        }
+    ],
+    "Delay": [
+        2.0
+    ],
+    "Objective": [
+        "Search the Bags for the Special Fossil",
+        1
+    ],
+    "Delay": [
+        1.0
+    ],
+    "SendMessage": [
+        "&8[&6&l!&8] &7To Search the Bags you &6Stand &7on them or &6Right-Click&7 on them!"
+    ],
+    "PickupItem": [
+        2546.5,
+        44.3,
+        944.5,
+        "",
+        "chest"
+    ],	
+    "SendMessage": [
+        "&8[&6&l+1&8] &f&lSpecial Fossil"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Yes! I finally found it!"
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": true,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Objective": [
+        "Head over the Bridge back to Dr Trayaurus",
+        1
+    ],
+    "RegionEntry": [
+        2575,
+        60,
+        997,
+        2582,
+        70,
+        1002
+    ],
+    "Dialog": [
+        {
+            "&8&lThief": "Hey [PLAYER]!",
+            "&8&lThief": "Where do you think you're going?",
+            "&8&lThief": "You ain't just going to take that Fossil that easily...",
+            "&8&lThief": "Thanks for finding it for me...",
+            "&8&lThief": "I lost it when I tripped in the cave.",
+            "[PLAYER]": "Yeah, I know... I heard all about it.",
+            "[PLAYER]": "Nice job! You couldn't even make a easy getaway...",
+            "&8&lThief": "Shush [PLAYER]!",
+            "&8&lThief": "Give me that!"
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "SendMessage": [
+        "&8[&6&l-1&8] &f&lSpecial Fossil"
+    ],
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": true,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Dialog": [
+        {
+            "&8&lThief": "You see this.",
+            "&8&lThief": "If you want it then you'll have to fight me!",
+            "[PLAYER]": "I'll do anything for Dr Trayaurus!",
+            "[PLAYER]": "Come at Me!!!"
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Objective": [
+        "Battle the Thief",
+        2
+    ],
+    "NpcBattle": [
+        "T2_HAND",
+        {
+            
+        },
+        {
+            "&8&lThief": "You thought it would be that easy?",
+            "&8&lThief": "You haven't seen the end of me."
+        },
+        {
+            "&8&lThief": "Well, would you look at that.",
+            "&8&lThief": "The fossil is going to be mine forever!"
+        },
+        [
+            {
+                "species": "Alakazam",
+                "level": 65
+            },
+            {
+                "species": "Machamp",
+                "level": 76
+            },
+            {
+                "species": "Chansey",
+                "level": 96
+            },
+            {
+                "species": "Rattata",
+                "level": 79
+            },
+            {
+                "species": "Growlithe",
+                "level": 84
+            },
+            {
+                "species": "Gastly",
+                "level": 93
+            }
+        ]
+    ],
+    "Delay": [
+        0.5
+    ],
+    "SendMessage": [
+        "&7&o*crack* *crack*"
+    ],
+    "Delay": [
+        0.5
+    ],
+    "SendMessage": [
+        "&7&o*toss*"
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Particle": [
+        "EXPLOSION_LARGE",
+        2579.5,
+        66.6,
+        1001.5,
+        10
+    ],
+    "PlaySound": [
+        "entity_generic_explode",
+        0
+    ],
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": true,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&8&lThief": "If I can't have this fossil then no one can!"
+        }
+    ],
+    "Delay": [
+        2.0
+    ],
+    "visibility": {
+        "DRT1": true,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Objective": [
+        "Talk to Dr Trayaurus",
+        1
+    ],
+    "HighlightClickEntity": [
+        "DRT1"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Dr Trayaurus! I had it...",
+            "[PLAYER]": "I found it in the cave. ",
+            "[PLAYER]": "But then, the Thief was waiting outside the cave.",
+            "[PLAYER]": "I beat him yet he wouldn't give it up!",
+            "[PLAYER]": "He crushed it into pieces...",
+            "[PLAYER]": "What do I do now?",
+            "&d&lDr Trayaurus": "[PLAYER], If you collect all the pieces of the fossil, I can use &6Poké Power &rto restore it!",
+            "&d&lDr Trayaurus": "Hurry, make sure you collect all the pieces.",
+            "&d&lDr Trayaurus": "I'll be by the front entrance when you return!"
+        }
+    ],
+    "Delay": [
+        2.0
+    ],
+    "MoveEntity": [
+        "DRT1",
+        2587.5,
+        72.0,
+        1033.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT1",
+        2586.5,
+        72.0,
+        1042.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT1",
+        2579.5,
+        72.0,
+        1043.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT1",
+        2576.5,
+        72.0,
+        1049.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT1",
+        2575.5,
+        73.0,
+        1049.5
+    ],
+    "Delay": [
+        1
+    ],
+    "ProgressiveMoveEntity": [
+        "DRT1",
+        2574.5,
+        73.0,
+        1052.5
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT3": true
+    },
+    "Objective": [
+        "Find all 3 Fossil Fragmants",
+        3
+    ],
+    "PickupItem": [
+        2581.5,
+        61.3,
+        1008.5,
+        "",
+        "bone_block"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &f&lFossil Fragment"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "PickupItem": [
+        2573.5,
+        63.3,
+        1017.5,
+        "",
+        "bone_block"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &f&lFossil Fragment"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "PickupItem": [
+        2558.5,
+        65.3,
+        1000.5,
+        "",
+        "bone_block"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &f&lFossil Fragment"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "Delay": [
+        1.0
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": true,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false,
+        "G1C1": true,
+        "G1C2": false,
+        "G2C1": true,
+        "G2C2": false
+    },
+    "Delay": [
+        1
+    ],
+    "Objective": [
+        "Head to the front of the Casino to give the Fragmants to Dr Trayaurus",
+        1
+    ],
+    "HighlightClickEntity": [
+        "DRT3"
+    ],
+    "visibility": {
+		"FRAG_ONE": true,
+		"FRAG_TWO": true,
+		"FRAG_THREE": true
+    },
+    "SendMessage": [
+        "&8[&6&l-3&8] &7Provided &8[&6&l3&8] &f&lFossil Fragmants &7to &dDr. Trayaurus"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Great work! This looks like all of them."
+        }
+    ],
+    "visibility": {
+        "T3": true
+    },
+    "Delay": [
+        1.0
+    ],
+    "PlaySound": [
+        "entity_generic_explode",
+        0
+    ],
+    "SendMessage": [
+        "&7&o*bam*"
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Did you hear that?",
+            "[PLAYER]": "Yeah!",
+            "&d&lDr Trayaurus": "You should go check it out.",
+            "&d&lDr Trayaurus": "I'll be waiting here."
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "Objective": [
+        "Stop the fight between Todd and Billy",
+        6
+    ],
+    "MoveEntity": [
+        "T3",
+        2587.5,
+        72.0,
+        1052.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "T3",
+        2584.5,
+        72.0,
+        1040.5
+    ],
+    "Delay": [
+        1
+    ],
+    "ProgressiveMoveEntity": [
+        "T3",
+        2594.5,
+        72.0,
+        1030.5
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "T3": false
+    },
+    "Delay": [
+        1.0
+    ],
+    "HighlightClickEntity": [
+        "G1C1",
+        "G2C1"
+    ],
+    "Dialog": [
+        {
+            "&7&lTodd": "Hey look at this dude...",
+            "&7&lBilly": "HAH! Look at you.",
+            "[PLAYER]": "Guys. Calm down!",
+            "[PLAYER]": "How about we settle this the right way.",
+            "[PLAYER]": "I battle both of you and if I win you guys are banned from the Casino.",
+            "&7&lTodd": "And if we win?",
+            "[PLAYER]": "Well... You arn't banned from the Casino then.",
+            "&7&lBilly": "Fine!",
+            "[PLAYER]": "Now Separate!"
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "MoveEntity": [
+        "G1C1",
+        2607.5,
+        72.0,
+        1039.5
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "G1C1": false,
+        "G1C2": true,
+        "G2C1": true,
+        "G2C2": false
+    },
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "G2C1",
+        2606.5,
+        72.0,
+        1060.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "G2C1",
+        2600.5,
+        72.0,
+        1060.5
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "G1C1": false,
+        "G1C2": true,
+        "G2C1": false,
+        "G2C2": true
+    },
+    "Objective": [
+        "Battle Todd",
+        1
+    ],
+    "NpcBattle": [
+        "G1C2",
+        {
+            
+        },
+        {
+            "&7&lTodd": "Oh wow. I was not expecting that."
+        },
+        {
+            "&7&lTodd": "Ahh. I feel bad.",
+            "&7&lTodd": "I'll give you a retry whenever you want."
+        },
+        [
+            {
+                "species": "Charizard",
+                "level": 64
+            },
+            {
+                "species": "Bulbasaur",
+                "level": 53
+            },
+            {
+                "species": "Snorlax",
+                "level": 61
+            },
+            {
+                "species": "Arbok",
+                "level": 59
+            },
+            {
+                "species": "Clefairy",
+                "level": 58
+            },
+            {
+                "species": "Pikachu",
+                "level": 67
+            }
+        ]
+    ],
+    "Objective": [
+        "Battle Billy",
+        1
+    ],
+    "NpcBattle": [
+        "G2C2",
+        {
+            
+        },
+        {
+            "&7&lBilly": "Wow... You have some nice Pokémon!"
+        },
+        {
+            "&7&lBilly": "I knew you could never beat me...",
+            "&7&lBilly": "Battle me again when you think you can beat me!"
+        },
+        [
+            {
+                "species": "Nidoking",
+                "level": 74
+            },
+            {
+                "species": "Vileplume",
+                "level": 51
+            },
+            {
+                "species": "Parasect",
+                "level": 52
+            },
+            {
+                "species": "Cloyster",
+                "level": 58
+            },
+            {
+                "species": "Golbat",
+                "level": 71
+            },
+            {
+                "species": "Ninetales",
+                "level": 67
+            }
+        ]
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "G1C1": true,
+        "G1C2": false,
+        "G2C1": true,
+        "G2C2": false
+    },
+    "Objective": [
+        "Talk to Todd and Billy",
+        1
+    ],
+    "HighlightClickEntity": [
+        "G1C1",
+        "G2C1"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "So I won...",
+            "[PLAYER]": "Now I guess you both are banned.",
+            "[PLAYER]": "What were you guys fighting over in the first place?",
+            "&7&lBilly": "He stole my money!",
+            "&7&lTodd": "I did not. I swear he left it somewhere.",
+            "[PLAYER]": "Well did you check around?",
+            "&7&lBilly": "No.",
+            "[PLAYER]": "Wow... Then I will check."
+        }
+    ],
+    "Delay": [
+        1.3
+    ],
+    "Objective": [
+        "Check around for Billy's Money",
+        1
+    ],
+    "PickupHead": [
+        2617.5,
+        72.0,
+        1049.5,
+        160,
+        "",
+        "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdkN2Y4ZmQ4N2ZlN2UzNGY5MTEzZGQzODVhYWI3YjI0ZWYyMjFjMTlkNDU1MTc1YjI1NzhhZjdmZjQ2ZWVjZiJ9fX0=",
+        ""
+    ],
+    "SendMessage": [
+        "&8[&a&l$&8] &2&l+100 Dollars"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "Objective": [
+        "Return the Money to Billy",
+        1
+    ],
+    "HighlightClickEntity": [
+        "G1C1",
+        "G2C1"
+    ],
+    "SendMessage": [
+        "&8[&a&l$&8] &c&l-100 Dollars"
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "So...",
+            "[PLAYER]": "What do you have to say to Todd.",
+            "&7&lBilly": "He hid my money!",
+            "[PLAYER]": "No...",
+            "[PLAYER]": "How about you go home for the day.",
+            "[PLAYER]": "Seems you are a little on the edge."
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "visibility": {
+        "G1C1": true,
+        "G1C2": false,
+        "G2C1": false,
+        "G2C2": false
+    },
+    "Delay": [
+        1.0
+    ],
+    "Dialog": [
+        {
+            "[PLAYER]": "And for you...",
+            "[PLAYER]": "Well, you did nothing wrong so I guess you can stay.",
+            "&7&lTodd": "Thank you so much! I think a theif came in here and hid his money.",
+            "[PLAYER]": "Well, I wouldn't be suprised. I have to go back to helping Dr Trayaurus now.",
+            "[PLAYER]": "He has a urgent project, we are working on restoring a Fossil!",
+            "&7&lTodd": "Oh, thanks! Good luck with that."
+        }
+    ],
+    "Delay": [
+        1.3
+    ],
+    "visibility": {
+        "G1C1": false,
+        "G1C2": false,
+        "G2C1": false,
+        "G2C2": false
+    },
+    "Objective": [
+        "Talk to Dr Trayaurus",
+        1
+    ],
+    "HighlightClickEntity": [
+        "DRT3"
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Nice Work, [PLAYER].",
+            "&d&lDr Trayaurus": "You really are a friendly &cPokémon &rplayer.",
+            "[PLAYER]": "Wow. Thanks!",
+            "&d&lDr Trayaurus": "Which reminds me!",
+            "&d&lDr Trayaurus": "You can friend people by doing &e/friend [name]",
+            "[PLAYER]": "Oh wow! That is cool.",
+            "&d&lDr Trayaurus": "Its a super cool way to see when your friends are on and create friends through playing &cPokémon&r!",
+            "&d&lDr Trayaurus": "Well anyways... Back to the Restoration!",
+            "&d&lDr Trayaurus": "Now in order to restore the fossil we need &e&l⚡ &eElectricity Rods &e&l⚡&r!",
+            "[PLAYER]": "What are &e&l⚡ &eElectricity Rods &e&l⚡ &rand where can they be found?",
+            "&d&lDr Trayaurus": "They can be found all around the Casino.",
+            "&d&lDr Trayaurus": "They are filled with Electricity, they will have enough energy to power our restoration process.",
+            "&d&lDr Trayaurus": "We need 4 &e&l⚡ &eElectricity Rods &e&l⚡ &rtotal!",
+            "[PLAYER]": "Okay, I am on it."
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Objective": [
+        "Find all 4 Electricity Rods",
+        4
+    ],
+    "PickupItem": [
+        2599.5,
+        72.3,
+        1084.5,
+        "",
+        "blaze_rod"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &e&l⚡ &eElectricity Rod &e&l⚡"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "PickupItem": [
+        2607.5,
+        74.3,
+        1018.5,
+        "",
+        "blaze_rod"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &e&l⚡ &eElectricity Rod &e&l⚡"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "PickupItem": [
+        2620.5,
+        74.1,
+        1039.5,
+        "",
+        "blaze_rod"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &e&l⚡ &eElectricity Rod &e&l⚡"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "PickupItem": [
+        2610.5,
+        73.3,
+        1032.5,
+        "",
+        "blaze_rod"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &e&l⚡ &eElectricity Rod &e&l⚡"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "Delay": [
+        1
+    ],
+    "Objective": [
+        "Return the Electricity Rods to Dr Trayaurus",
+        1
+    ],
+    "HighlightClickEntity": [
+        "DRT3"
+    ],
+    "SendMessage": [
+        "&8[&6&l-4&8] &7Provided &8[&6&l4&8] &e&l⚡ &e&lElectricity Rods &e&l⚡ &7to &dDr Trayaurus"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Great work! Now I need 4 &eMagnemites&r.",
+            "&d&lDr Trayaurus": "&eMagnemites &rare super good for this project.",
+            "&d&lDr Trayaurus": "They can withstand the high amounts of energy from the Electricity Rods and transmit it onto the fossil fragmants."
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Objective": [
+        "Give 4 Magnemites to Dr Trayaurus - 1/4",
+        1
+    ],
+    "ClickEntity": [
+        "DRT3"
+    ],
+    "ProvidePokemon": [
+        "DRT3",
+        "Magnemite"
+    ],
+    "SendMessage": [
+        "&8[&6&l-1&8] &7Provided &e&lMagnemite &7to &dDr Trayaurus"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": true,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": true,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        1.0
+    ],
+    "Objective": [
+        "Give 4 Magnemites to Dr Trayaurus - 2/4",
+        1
+    ],
+    "ClickEntity": [
+        "DRT3"
+    ],
+    "ProvidePokemon": [
+        "DRT3",
+        "Magnemite"
+    ],
+    "SendMessage": [
+        "&8[&6&l-1&8] &7Provided &e&lMagnemite &7to &dDr Trayaurus"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": true,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": true,
+        "POKE_RESTORE_2": true,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        1.0
+    ],
+    "Objective": [
+        "Give 4 Magnemites to Dr Trayaurus - 3/4",
+        1
+    ],
+    "ClickEntity": [
+        "DRT3"
+    ],
+    "ProvidePokemon": [
+        "DRT3",
+        "Magnemite"
+    ],
+    "SendMessage": [
+        "&8[&6&l-1&8] &7Provided &e&lMagnemite &7to &dDr Trayaurus"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": true,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": true,
+        "POKE_RESTORE_2": true,
+        "POKE_RESTORE_3": true,
+        "POKE_RESTORE_4": false
+    },
+    "Delay": [
+        1.0
+    ],
+    "Objective": [
+        "Give 4 Magnemites to Dr Trayaurus - 4/4",
+        1
+    ],
+    "ClickEntity": [
+        "DRT3"
+    ],
+    "ProvidePokemon": [
+        "DRT3",
+        "Magnemite"
+    ],
+    "SendMessage": [
+        "&8[&6&l-1&8] &7Provided &e&lMagnemite &7to &dDr Trayaurus"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": true,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": true,
+        "POKE_RESTORE_2": true,
+        "POKE_RESTORE_3": true,
+        "POKE_RESTORE_4": true
+    },
+    "Delay": [
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Nice one! Tell me when you are ready.",
+            "[PLAYER]": "Im ready when you are!",
+            "&d&lDr Trayaurus": "Okay. Lets stand back."
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "MoveEntity": [
+        "DRT3",
+        2579.5,
+        73.0,
+        1052.5
+    ],
+    "Delay": [
+        1
+    ],
+    "MoveEntity": [
+        "DRT3",
+        2581.5,
+        72.0,
+        1052.5
+    ],
+    "Delay": [
+        1
+    ],
+    "ProgressiveMoveEntity": [
+        "DRT3",
+        2583.5,
+        72.0,
+        1052.5
+    ],
+    "Delay": [
+        1
+    ],
+    "EntityLook": [
+        "DRT3",
+        90,
+        0
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": true,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": true,
+        "POKE_RESTORE_2": true,
+        "POKE_RESTORE_3": true,
+        "POKE_RESTORE_4": true
+    },
+    "Delay": [
+        1.0
+    ],
+    "Objective": [
+        "Stand Back a little Farther!",
+        1
+    ],
+    "DistanceTravelled": [
+        2
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Here goes nothing!"
+        }
+    ],
+    "Delay": [
+        3.0
+    ],
+    "Particle": [
+        "EXPLOSION_LARGE",
+        2577.5,
+        73.0,
+        1052.5,
+        10
+    ],
+    "PlaySound": [
+        "entity_generic_explode",
+        0
+    ],
+    "StrikeLightning": [
+        2577.5,
+        73.0,
+        1051.9
+    ],
+    "StrikeLightning": [
+        2578.0,
+        73.0,
+        1052.5
+    ],
+    "StrikeLightning": [
+        2577.0,
+        73.0,
+        1053.1
+    ],
+    "Delay": [
+        1
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": true,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T3": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false,
+		"FRAG_ONE": false,
+		"FRAG_TWO": false,
+		"FRAG_THREE": false
+    },
+    "Objective": [
+        "Pickup the Fossil that was restored!",
+        1
+    ],
+    "PickupItem": [
+        2577.5,
+        73.3,
+        1052.5,
+        "&f&lFOSSIL",
+        "bone"
+    ],
+    "SendMessage": [
+        "&8[&6&l+1&8] &f&lSpecial Fossil"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "Delay": [
+        1.0
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "It worked!",
+            "&d&lDr Trayaurus": "I think you deserve to keep it.",
+            "&d&lDr Trayaurus": "You helped me so much with getting it back from them. ",
+            "&d&lDr Trayaurus": "You are the true hero.",
+            "[PLAYER]": "No no, its yours."
+        }
+    ],
+    "Delay": [
+        1.5
+    ],
+    "Objective": [
+        "Talk to Dr Trayaurus more about the Fossil",
+        1
+    ],
+    "HighlightClickEntity": [
+        "DRT4"
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "You can keep it!",
+            "&d&lDr Trayaurus": "Unless you want to battle for it?",
+            "[PLAYER]": "Sure!",
+            "&d&lDr Trayaurus": "Great. Winner gets it!"
+        }
+    ],
+    "Delay": [
+        1.0
+    ],
+    "MoveEntity": [
+        "DRT4",
+        2590.5,
+        72.0,
+        1052.5
+    ],
+    "Delay": [
+        1
+    ],
+    "EntityLook": [
+        "DRT4",
+        90,
+        0
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": true,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "T3": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false
+    },
+    "Objective": [
+        "Battle Dr Trayaurus",
+        1
+    ],
+    "NpcBattle": [
+        "DRT5",
+        {
+            
+        },
+        {
+            "&d&lDr Trayaurus": "I guess you'll be keeping the Fossil."
+        },
+        {
+            "&d&lDr Trayaurus": "I can't take the fossil from you.",
+            "&d&lDr Trayaurus": "Battle me again when you think you can beat me!"
+        },
+        [
+            {
+                "species": "Jolteon",
+                "level": 100
+            },
+            {
+                "species": "Dragonite",
+                "level": 100
+            },
+            {
+                "species": "Snorlax",
+                "level": 100
+            },
+            {
+                "species": "Hitmonchan",
+                "level": 100
+            },
+            {
+                "species": "Charizard",
+                "level": 100
+            },
+            {
+                "species": "Cloud",
+                "level": 100
+            }
+        ]
+    ],
+    "Delay": [
+        2.0
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Say... Would you be down to trade it for a Pokémon!",
+            "[PLAYER]": "Sure! What kind of Pokémon?",
+            "&d&lDr Trayaurus": "Fossil Pokémon!",
+            "[PLAYER]": "Oh wow! I would love to trade it!",
+            "&d&lDr Trayaurus": "Great, let me take you over to select one!"
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "SendMessage": [
+        "&8[&6&l-1&8] &f&lSpecial Fossil"
+    ],
+    "Delay": [
+        1.0
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "F1": true,
+        "F2": true,
+        "F3": true,
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true,
+        "G9": true,
+        "G10": true,
+        "G11": true,
+        "M1_NONAME": true,
+        "M1_NAME": false,
+        "M2": true,
+        "M3": true,
+        "M4": true,
+        "M5": true,
+        "M6": true,
+        "M7": true,
+        "M8": true,
+        "M9": true,
+        "M10": true,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T3": false,
+        "T2_HAND": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false,
+        "AERO_TP_SELECTION_REQUIREMENT": true
+    },
+    "Delay": [
+        0.7
+    ],
+    "Teleport": [
+        2599.5,
+        119.0,
+        1052.5,
+        -90,
+        0
+    ],
+    "visibility": {
+        "DRT6": true
+    },
+    "Delay": [
+        0.5
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Choose your Fossil Pokémon!"
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "SendMessage": [
+        "&8[&6&l!&8] &6Right-Click &7on the &cPokémon &7you would like to Select!"
+    ],
+    "Delay": [
+        0.5
+    ],
+    "StarterPokemonSelect": [
+        2603.5,
+        119.0,
+        1049.5,
+        90,
+        "Aerodactyl",
+        2603.5,
+        119.0,
+        1052.5,
+        90,
+        "Omanyte",
+        2603.5,
+        119.0,
+        1055.5,
+        90,
+        "Kabuto"
+    ],
+    "SendMessage": [
+        "&8[&6&l!&8] &6Fossil Pokémon &7Chosen!"
+    ],
+    "PlaySound": [
+      "entity_player_levelup",
+      1
+    ],
+    "Delay": [
+        0.5
+    ],
+    "Dialog": [
+        {
+            "&d&lDr Trayaurus": "Great Choice!",
+            "&d&lDr Trayaurus": "Here, let me give you some goodies as full repayment!",
+            "[PLAYER]": "Wow! Thanks so much.",
+            "&d&lDr Trayaurus": "Well, I have to go now!"
+        }
+    ],
+    "Delay": [
+        0.5
+    ],
+    "GiveCoins": [
+        75000
+    ],
+    "GiveTokens": [
+        20
+    ],
+    "GiveTrainerExperience": [
+        50000
+    ],
+	"ShowReward": [ 
+		"&c1 Fossil Pokémon" 
+	],
+    "Delay": [
+        1.0
+    ],
+    "SendMessage": [
+        "&8[&6&l!&8] &7You have Completed &6The Fossil Thief &7Quest!"
+    ],
+    "PlaySound": [
+        "entity_arrow_hit_player",
+        0
+    ],
+    "visibility": {
+        "DRT1": false,
+        "DRT2": false,
+        "DRT2_HAND": false,
+        "DRT2_NOHAND": false,
+        "DRT3": false,
+        "DRT4": false,
+        "DRT5": false,
+        "DRT5_HAND": false,
+        "DRT6": false,
+        "F1": false,
+        "F2": false,
+        "F3": false,
+        "G1": false,
+        "G2": false,
+        "G3": false,
+        "G4": false,
+        "G5": false,
+        "G6": false,
+        "G7": false,
+        "G8": false,
+        "G9": false,
+        "G10": false,
+        "G11": false,
+        "M1_NONAME": false,
+        "M1_NAME": false,
+        "M2": false,
+        "M3": false,
+        "M4": false,
+        "M5": false,
+        "M6": false,
+        "M7": false,
+        "M8": false,
+        "M9": false,
+        "M10": false,
+        "T1": false,
+        "T1_HAND": false,
+        "T2": false,
+        "T2_HAND": false,
+        "T3": false,
+        "POKE_RESTORE_1": false,
+        "POKE_RESTORE_2": false,
+        "POKE_RESTORE_3": false,
+        "POKE_RESTORE_4": false,
+        "G1C1": false,
+        "G1C2": false,
+        "G2C1": false,
+        "G2C2": false,
+        "SPAWN": true,
+        "AERO_TP_SELECTION_REQUIREMENT": false
+    },
+    "Delay": [
+        1.0
+    ],
+    "CompleteQuestStage": [
+        
+    ],
+    "GlobalPickupItem": [
+        2575.5,
+        65.2,
+        974.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2561.5,
+        44.5,
+        959.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2555.5,
+        44.5,
+        949.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2528.5,
+        43.5,
+        959.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2537.5,
+        42.5,
+        963.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2552.5,
+        40.5,
+        983.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2521.5,
+        50.5,
+        975.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2504.5,
+        46.5,
+        976.5,
+        "",
+        "chest"
+    ],
+    "GlobalPickupItem": [
+        2514.5,
+        45.5,
+        981.5,
+        "",
+        "chest"
+    ],
+    "GlobalClickEntity": [
+      "SPAWN"
+    ],
+    "Teleport": [
+        692.5,
+        34.0,
+        701.5,
+        -180,
+        0
+    ],
+    "GlobalClickEntity": [
+        "AERO_TP_SELECTION_REQUIREMENT"
+    ],
+    "Teleport": [
+        2599.5,
+        119.0,
+        1052.5,
+        -90,
+        0
+    ]
+}

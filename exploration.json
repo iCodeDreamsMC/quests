@@ -1,0 +1,641 @@
+{
+    "key": "exploration",
+    "name": "&bDaily Challenge 5 - Exploration",
+	"author": "Mattyy",
+    "description": "Help Pat and Jen explore MMOs World.",
+    "location": "Epic Proportions - Jens House",
+    "minimumLevel": 1,
+    "hideInQuestLog": false,
+    "allowRejoining": true,
+    "icon": {
+        "material": "POKEGEAR"
+    },
+    "rewards": [
+        "&67500 Coins",
+        "&55 Tokens",
+        "&27500 Trainer Experience",
+        "&rChance for &7Focus Sash"
+    ],
+    "npcs": {
+        "Pat_One": {
+            "name": [
+				"&6&lPat",
+				"&a&lChallenge Giver"
+			],
+            "location": {
+                "world": "world",
+                "x": 1096.5,
+                "y": 59,
+                "z": 900.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1Mjc3NDc2OTQ5MDQsInByb2ZpbGVJZCI6ImQ1ZTFjZjYxZDdkYjQ0OGNiMDk5MmY5MDhhZDRiNjMwIiwicHJvZmlsZU5hbWUiOiJEYXJTdGFyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZjBiNzRkOTMwMzg4NmM4ZTc4Njg5NWZiOTcwNzQwNmI5NjAyYmVmN2RhMGY5MTcwNzMyOGYzYjgyNTdhOThmIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+                "signature": "fcf0oLGJmzYUEljp4MW229JBwfIABL1GrwyPyTYSOKHT06nrhRvI5ZB6mEcgV5Tx6jFWzYdp2mcmvA5ZFv9upLz+aGwUMbfuvBzddzR5la8Z7bjoTz30ihBp3Zp04qn1jefDvRkc7fbBy5T8MMLRyClgXyx0Ieojjmlq07Pvn7YK/vsCKoNn0ASzxuO8db/8FHH0AF8yvyh/7zTcYBeUE6dbkEQPGuaCIaemUncAiFGnCmnr8a27PcV9hYfZmjltaKCAMLymnrOsEn3FJgCu6/3Nnqzp8DNAdBlkcuGTDaL0zolaw+XkyZtGCE98VYXs8Fj68QD9CxsAsNa7kGcMu5xWBWCkpp/7IvlpuqWrASgZURmsU58K8/X2vIfInhYFS4OrMzYzF7FzdBFoocrgXA0ipPpjSSP/P5b353vUsRangxPlgswjHYsK6xwV05v0ziRb15SAobxZ7f76vn1le7Aast8TOdBFj+wDwgcLPTL5550tkt2R2LbPOx6lGCUa7Q7IiESlLa8usaQW1dFRZmZrLEpY0Aze2zDotPrwTmjv1PCa8Bmb8eEwfKU7h7nIIUHXGtLi0Hgpkdlg7wJ/cJJ7IA8aQ/mu6NjCWak5JzKg0atVgwfFDFcz7Ds/RAIQHbUWCKnpnqqFpAAc0mmJ3mRBpkJ8PyKjaxwI29jU+G8="
+            }
+        },
+        "Pat_Two": {
+            "name": "Pat",
+            "location": {
+                "world": "world",
+                "x": 1005.5,
+                "y": 25,
+                "z": 1550.5,
+                "yaw": 136,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1Mjc3NDc2OTQ5MDQsInByb2ZpbGVJZCI6ImQ1ZTFjZjYxZDdkYjQ0OGNiMDk5MmY5MDhhZDRiNjMwIiwicHJvZmlsZU5hbWUiOiJEYXJTdGFyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZjBiNzRkOTMwMzg4NmM4ZTc4Njg5NWZiOTcwNzQwNmI5NjAyYmVmN2RhMGY5MTcwNzMyOGYzYjgyNTdhOThmIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+                "signature": "fcf0oLGJmzYUEljp4MW229JBwfIABL1GrwyPyTYSOKHT06nrhRvI5ZB6mEcgV5Tx6jFWzYdp2mcmvA5ZFv9upLz+aGwUMbfuvBzddzR5la8Z7bjoTz30ihBp3Zp04qn1jefDvRkc7fbBy5T8MMLRyClgXyx0Ieojjmlq07Pvn7YK/vsCKoNn0ASzxuO8db/8FHH0AF8yvyh/7zTcYBeUE6dbkEQPGuaCIaemUncAiFGnCmnr8a27PcV9hYfZmjltaKCAMLymnrOsEn3FJgCu6/3Nnqzp8DNAdBlkcuGTDaL0zolaw+XkyZtGCE98VYXs8Fj68QD9CxsAsNa7kGcMu5xWBWCkpp/7IvlpuqWrASgZURmsU58K8/X2vIfInhYFS4OrMzYzF7FzdBFoocrgXA0ipPpjSSP/P5b353vUsRangxPlgswjHYsK6xwV05v0ziRb15SAobxZ7f76vn1le7Aast8TOdBFj+wDwgcLPTL5550tkt2R2LbPOx6lGCUa7Q7IiESlLa8usaQW1dFRZmZrLEpY0Aze2zDotPrwTmjv1PCa8Bmb8eEwfKU7h7nIIUHXGtLi0Hgpkdlg7wJ/cJJ7IA8aQ/mu6NjCWak5JzKg0atVgwfFDFcz7Ds/RAIQHbUWCKnpnqqFpAAc0mmJ3mRBpkJ8PyKjaxwI29jU+G8="
+            }
+        },
+        "Pat_Three": {
+            "name": "Pat",
+            "location": {
+                "world": "world",
+                "x": 743.5,
+                "y": 26,
+                "z": 1758.5,
+                "yaw": 180,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1Mjc3NDc2OTQ5MDQsInByb2ZpbGVJZCI6ImQ1ZTFjZjYxZDdkYjQ0OGNiMDk5MmY5MDhhZDRiNjMwIiwicHJvZmlsZU5hbWUiOiJEYXJTdGFyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZjBiNzRkOTMwMzg4NmM4ZTc4Njg5NWZiOTcwNzQwNmI5NjAyYmVmN2RhMGY5MTcwNzMyOGYzYjgyNTdhOThmIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+                "signature": "fcf0oLGJmzYUEljp4MW229JBwfIABL1GrwyPyTYSOKHT06nrhRvI5ZB6mEcgV5Tx6jFWzYdp2mcmvA5ZFv9upLz+aGwUMbfuvBzddzR5la8Z7bjoTz30ihBp3Zp04qn1jefDvRkc7fbBy5T8MMLRyClgXyx0Ieojjmlq07Pvn7YK/vsCKoNn0ASzxuO8db/8FHH0AF8yvyh/7zTcYBeUE6dbkEQPGuaCIaemUncAiFGnCmnr8a27PcV9hYfZmjltaKCAMLymnrOsEn3FJgCu6/3Nnqzp8DNAdBlkcuGTDaL0zolaw+XkyZtGCE98VYXs8Fj68QD9CxsAsNa7kGcMu5xWBWCkpp/7IvlpuqWrASgZURmsU58K8/X2vIfInhYFS4OrMzYzF7FzdBFoocrgXA0ipPpjSSP/P5b353vUsRangxPlgswjHYsK6xwV05v0ziRb15SAobxZ7f76vn1le7Aast8TOdBFj+wDwgcLPTL5550tkt2R2LbPOx6lGCUa7Q7IiESlLa8usaQW1dFRZmZrLEpY0Aze2zDotPrwTmjv1PCa8Bmb8eEwfKU7h7nIIUHXGtLi0Hgpkdlg7wJ/cJJ7IA8aQ/mu6NjCWak5JzKg0atVgwfFDFcz7Ds/RAIQHbUWCKnpnqqFpAAc0mmJ3mRBpkJ8PyKjaxwI29jU+G8="
+            }
+        },
+        "Pat_Four": {
+            "name": "Pat",
+            "location": {
+                "world": "world",
+                "x": 1269.5,
+                "y": 52.0,
+                "z": 2300.5,
+                "yaw": 58,
+                "pitch": -1.0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1Mjc3NDc2OTQ5MDQsInByb2ZpbGVJZCI6ImQ1ZTFjZjYxZDdkYjQ0OGNiMDk5MmY5MDhhZDRiNjMwIiwicHJvZmlsZU5hbWUiOiJEYXJTdGFyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZjBiNzRkOTMwMzg4NmM4ZTc4Njg5NWZiOTcwNzQwNmI5NjAyYmVmN2RhMGY5MTcwNzMyOGYzYjgyNTdhOThmIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+                "signature": "fcf0oLGJmzYUEljp4MW229JBwfIABL1GrwyPyTYSOKHT06nrhRvI5ZB6mEcgV5Tx6jFWzYdp2mcmvA5ZFv9upLz+aGwUMbfuvBzddzR5la8Z7bjoTz30ihBp3Zp04qn1jefDvRkc7fbBy5T8MMLRyClgXyx0Ieojjmlq07Pvn7YK/vsCKoNn0ASzxuO8db/8FHH0AF8yvyh/7zTcYBeUE6dbkEQPGuaCIaemUncAiFGnCmnr8a27PcV9hYfZmjltaKCAMLymnrOsEn3FJgCu6/3Nnqzp8DNAdBlkcuGTDaL0zolaw+XkyZtGCE98VYXs8Fj68QD9CxsAsNa7kGcMu5xWBWCkpp/7IvlpuqWrASgZURmsU58K8/X2vIfInhYFS4OrMzYzF7FzdBFoocrgXA0ipPpjSSP/P5b353vUsRangxPlgswjHYsK6xwV05v0ziRb15SAobxZ7f76vn1le7Aast8TOdBFj+wDwgcLPTL5550tkt2R2LbPOx6lGCUa7Q7IiESlLa8usaQW1dFRZmZrLEpY0Aze2zDotPrwTmjv1PCa8Bmb8eEwfKU7h7nIIUHXGtLi0Hgpkdlg7wJ/cJJ7IA8aQ/mu6NjCWak5JzKg0atVgwfFDFcz7Ds/RAIQHbUWCKnpnqqFpAAc0mmJ3mRBpkJ8PyKjaxwI29jU+G8="
+            }
+        },
+        "Pat_Five": {
+            "name": "Pat",
+            "location": {
+                "world": "world",
+                "x": 1596.5,
+                "y": 62,
+                "z": 1796.5,
+                "yaw": -130,
+                "pitch": 0
+            },
+			
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1Mjc3NDc2OTQ5MDQsInByb2ZpbGVJZCI6ImQ1ZTFjZjYxZDdkYjQ0OGNiMDk5MmY5MDhhZDRiNjMwIiwicHJvZmlsZU5hbWUiOiJEYXJTdGFyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZjBiNzRkOTMwMzg4NmM4ZTc4Njg5NWZiOTcwNzQwNmI5NjAyYmVmN2RhMGY5MTcwNzMyOGYzYjgyNTdhOThmIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=",
+                "signature": "fcf0oLGJmzYUEljp4MW229JBwfIABL1GrwyPyTYSOKHT06nrhRvI5ZB6mEcgV5Tx6jFWzYdp2mcmvA5ZFv9upLz+aGwUMbfuvBzddzR5la8Z7bjoTz30ihBp3Zp04qn1jefDvRkc7fbBy5T8MMLRyClgXyx0Ieojjmlq07Pvn7YK/vsCKoNn0ASzxuO8db/8FHH0AF8yvyh/7zTcYBeUE6dbkEQPGuaCIaemUncAiFGnCmnr8a27PcV9hYfZmjltaKCAMLymnrOsEn3FJgCu6/3Nnqzp8DNAdBlkcuGTDaL0zolaw+XkyZtGCE98VYXs8Fj68QD9CxsAsNa7kGcMu5xWBWCkpp/7IvlpuqWrASgZURmsU58K8/X2vIfInhYFS4OrMzYzF7FzdBFoocrgXA0ipPpjSSP/P5b353vUsRangxPlgswjHYsK6xwV05v0ziRb15SAobxZ7f76vn1le7Aast8TOdBFj+wDwgcLPTL5550tkt2R2LbPOx6lGCUa7Q7IiESlLa8usaQW1dFRZmZrLEpY0Aze2zDotPrwTmjv1PCa8Bmb8eEwfKU7h7nIIUHXGtLi0Hgpkdlg7wJ/cJJ7IA8aQ/mu6NjCWak5JzKg0atVgwfFDFcz7Ds/RAIQHbUWCKnpnqqFpAAc0mmJ3mRBpkJ8PyKjaxwI29jU+G8="
+            }
+        },
+        "Pat_Six": {
+            "name": "Pat",
+            "location": {
+                "world": "world",
+                "x": 1059.5,
+                "y": 65,
+                "z": 905.5,
+                "yaw": 0,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "",
+                "signature": ""
+            }
+        },
+        "Jen_One": {
+            "name": [
+				"&6&lJen",
+				"&a&lChallenge Giver"
+			],
+            "location": {
+                "world": "world",
+                "x": 1096.5,
+                "y": 59,
+                "z": 902.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzEzMTkxMzE5NjcsInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5MDBlM2RiMmY2Nzk5MDliYjM4ZGZmNjBiZjAyMDFmN2Y4ZGY2YmFhMzVhYTUxZTAxNGRmYjQzNTllMDVhOSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+                "signature": "h22M9ThfL48ZbcY9qySF69O1+Q9HFWZKlF5AKCMlvUnjDO5V1//wqHqio7OnHGGhXhCrTfX8t1qLIpkpwiElyVUCySRUI5pRQ6Yhn8pWgvwcFgxdoHQksuf8xZllWorr4hW7BBa3TE0PmObmkVvuc90t6bY3PqSPihUd3icBRtBJ73fLthz2cm/ibrupeDKqg+CwKtKgogrBbI3J2p8zEOvVUO3nOOs3tuMaItN8ZllV9RTMm3luPG/3683MUWyheWhmTya4pcwV+SmWMMEcFhqIM0BfR4KcwHYP+G+wwP7D7WYn02h1QKkrYdJR0mckfQ5djhV7KNvS1PHHYXqIVT0jcAOjFhvg0L5zsOS3/J/YJBjiVKCE1r3WYP7IOmjITb1x8M+SaKiDyobTHdhi6/SZvxNzUb/ejaQLbRIqrLoKw5TuWllDi0L0BnKZSGWcqEeJRJfAKCC9ITXJP1wxSajBueicUBiDBVdty3mPkeDGwQMehj/8z2IWbJFdYEKT1EWR79RkAG0YizJG8jqHhU+69Ean7F1xJCcrv4di91j4qjRMoAqtk1iyfstM/UsIwmmAwI9LuKJzNhF7T1ZLNiXfTdM8LnoB39I9w0vLRW7i/XoBwInZBGDi8e8bSz9Yeo30zZlskTxb5oVytmtubKqzXLH6376q1mz7QfvlFA4="
+            }
+        },
+        "Jen_Two": {
+            "name": "Jen",
+            "location": {
+                "world": "world",
+                "x": 1004.5,
+                "y": 25,
+                "z": 1551.5,
+                "yaw": 136,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzEzMTkxMzE5NjcsInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5MDBlM2RiMmY2Nzk5MDliYjM4ZGZmNjBiZjAyMDFmN2Y4ZGY2YmFhMzVhYTUxZTAxNGRmYjQzNTllMDVhOSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+                "signature": "h22M9ThfL48ZbcY9qySF69O1+Q9HFWZKlF5AKCMlvUnjDO5V1//wqHqio7OnHGGhXhCrTfX8t1qLIpkpwiElyVUCySRUI5pRQ6Yhn8pWgvwcFgxdoHQksuf8xZllWorr4hW7BBa3TE0PmObmkVvuc90t6bY3PqSPihUd3icBRtBJ73fLthz2cm/ibrupeDKqg+CwKtKgogrBbI3J2p8zEOvVUO3nOOs3tuMaItN8ZllV9RTMm3luPG/3683MUWyheWhmTya4pcwV+SmWMMEcFhqIM0BfR4KcwHYP+G+wwP7D7WYn02h1QKkrYdJR0mckfQ5djhV7KNvS1PHHYXqIVT0jcAOjFhvg0L5zsOS3/J/YJBjiVKCE1r3WYP7IOmjITb1x8M+SaKiDyobTHdhi6/SZvxNzUb/ejaQLbRIqrLoKw5TuWllDi0L0BnKZSGWcqEeJRJfAKCC9ITXJP1wxSajBueicUBiDBVdty3mPkeDGwQMehj/8z2IWbJFdYEKT1EWR79RkAG0YizJG8jqHhU+69Ean7F1xJCcrv4di91j4qjRMoAqtk1iyfstM/UsIwmmAwI9LuKJzNhF7T1ZLNiXfTdM8LnoB39I9w0vLRW7i/XoBwInZBGDi8e8bSz9Yeo30zZlskTxb5oVytmtubKqzXLH6376q1mz7QfvlFA4="
+            }
+        },
+        "Jen_Three": {
+            "name": "Jen",
+            "location": {
+                "world": "world",
+                "x": 741.5,
+                "y": 26,
+                "z": 1758.5,
+                "yaw": 180,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzEzMTkxMzE5NjcsInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5MDBlM2RiMmY2Nzk5MDliYjM4ZGZmNjBiZjAyMDFmN2Y4ZGY2YmFhMzVhYTUxZTAxNGRmYjQzNTllMDVhOSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+                "signature": "h22M9ThfL48ZbcY9qySF69O1+Q9HFWZKlF5AKCMlvUnjDO5V1//wqHqio7OnHGGhXhCrTfX8t1qLIpkpwiElyVUCySRUI5pRQ6Yhn8pWgvwcFgxdoHQksuf8xZllWorr4hW7BBa3TE0PmObmkVvuc90t6bY3PqSPihUd3icBRtBJ73fLthz2cm/ibrupeDKqg+CwKtKgogrBbI3J2p8zEOvVUO3nOOs3tuMaItN8ZllV9RTMm3luPG/3683MUWyheWhmTya4pcwV+SmWMMEcFhqIM0BfR4KcwHYP+G+wwP7D7WYn02h1QKkrYdJR0mckfQ5djhV7KNvS1PHHYXqIVT0jcAOjFhvg0L5zsOS3/J/YJBjiVKCE1r3WYP7IOmjITb1x8M+SaKiDyobTHdhi6/SZvxNzUb/ejaQLbRIqrLoKw5TuWllDi0L0BnKZSGWcqEeJRJfAKCC9ITXJP1wxSajBueicUBiDBVdty3mPkeDGwQMehj/8z2IWbJFdYEKT1EWR79RkAG0YizJG8jqHhU+69Ean7F1xJCcrv4di91j4qjRMoAqtk1iyfstM/UsIwmmAwI9LuKJzNhF7T1ZLNiXfTdM8LnoB39I9w0vLRW7i/XoBwInZBGDi8e8bSz9Yeo30zZlskTxb5oVytmtubKqzXLH6376q1mz7QfvlFA4="
+            }
+        },
+        "Jen_Four": {
+            "name": "Jen",
+            "location": {
+                "world": "world",
+                "x": 1271.5,
+                "y": 52.0,
+                "z": 2300.5,
+                "yaw": 65,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzEzMTkxMzE5NjcsInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5MDBlM2RiMmY2Nzk5MDliYjM4ZGZmNjBiZjAyMDFmN2Y4ZGY2YmFhMzVhYTUxZTAxNGRmYjQzNTllMDVhOSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+                "signature": "h22M9ThfL48ZbcY9qySF69O1+Q9HFWZKlF5AKCMlvUnjDO5V1//wqHqio7OnHGGhXhCrTfX8t1qLIpkpwiElyVUCySRUI5pRQ6Yhn8pWgvwcFgxdoHQksuf8xZllWorr4hW7BBa3TE0PmObmkVvuc90t6bY3PqSPihUd3icBRtBJ73fLthz2cm/ibrupeDKqg+CwKtKgogrBbI3J2p8zEOvVUO3nOOs3tuMaItN8ZllV9RTMm3luPG/3683MUWyheWhmTya4pcwV+SmWMMEcFhqIM0BfR4KcwHYP+G+wwP7D7WYn02h1QKkrYdJR0mckfQ5djhV7KNvS1PHHYXqIVT0jcAOjFhvg0L5zsOS3/J/YJBjiVKCE1r3WYP7IOmjITb1x8M+SaKiDyobTHdhi6/SZvxNzUb/ejaQLbRIqrLoKw5TuWllDi0L0BnKZSGWcqEeJRJfAKCC9ITXJP1wxSajBueicUBiDBVdty3mPkeDGwQMehj/8z2IWbJFdYEKT1EWR79RkAG0YizJG8jqHhU+69Ean7F1xJCcrv4di91j4qjRMoAqtk1iyfstM/UsIwmmAwI9LuKJzNhF7T1ZLNiXfTdM8LnoB39I9w0vLRW7i/XoBwInZBGDi8e8bSz9Yeo30zZlskTxb5oVytmtubKqzXLH6376q1mz7QfvlFA4="
+            }
+        },
+        "Jen_Five": {
+            "name": "Jen",
+            "location": {
+                "world": "world",
+                "x": 1594.5,
+                "y": 62,
+                "z": 1796.5,
+                "yaw": -130,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzEzMTkxMzE5NjcsInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5MDBlM2RiMmY2Nzk5MDliYjM4ZGZmNjBiZjAyMDFmN2Y4ZGY2YmFhMzVhYTUxZTAxNGRmYjQzNTllMDVhOSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+                "signature": "h22M9ThfL48ZbcY9qySF69O1+Q9HFWZKlF5AKCMlvUnjDO5V1//wqHqio7OnHGGhXhCrTfX8t1qLIpkpwiElyVUCySRUI5pRQ6Yhn8pWgvwcFgxdoHQksuf8xZllWorr4hW7BBa3TE0PmObmkVvuc90t6bY3PqSPihUd3icBRtBJ73fLthz2cm/ibrupeDKqg+CwKtKgogrBbI3J2p8zEOvVUO3nOOs3tuMaItN8ZllV9RTMm3luPG/3683MUWyheWhmTya4pcwV+SmWMMEcFhqIM0BfR4KcwHYP+G+wwP7D7WYn02h1QKkrYdJR0mckfQ5djhV7KNvS1PHHYXqIVT0jcAOjFhvg0L5zsOS3/J/YJBjiVKCE1r3WYP7IOmjITb1x8M+SaKiDyobTHdhi6/SZvxNzUb/ejaQLbRIqrLoKw5TuWllDi0L0BnKZSGWcqEeJRJfAKCC9ITXJP1wxSajBueicUBiDBVdty3mPkeDGwQMehj/8z2IWbJFdYEKT1EWR79RkAG0YizJG8jqHhU+69Ean7F1xJCcrv4di91j4qjRMoAqtk1iyfstM/UsIwmmAwI9LuKJzNhF7T1ZLNiXfTdM8LnoB39I9w0vLRW7i/XoBwInZBGDi8e8bSz9Yeo30zZlskTxb5oVytmtubKqzXLH6376q1mz7QfvlFA4="
+            }
+        },
+        "Jen_Six": {
+            "name": "Jen",
+            "location": {
+                "world": "world",
+                "x": 1061.5,
+                "y": 65,
+                "z": 905.5,
+                "yaw": 20,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzEzMTkxMzE5NjcsInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5MDBlM2RiMmY2Nzk5MDliYjM4ZGZmNjBiZjAyMDFmN2Y4ZGY2YmFhMzVhYTUxZTAxNGRmYjQzNTllMDVhOSIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19",
+                "signature": "h22M9ThfL48ZbcY9qySF69O1+Q9HFWZKlF5AKCMlvUnjDO5V1//wqHqio7OnHGGhXhCrTfX8t1qLIpkpwiElyVUCySRUI5pRQ6Yhn8pWgvwcFgxdoHQksuf8xZllWorr4hW7BBa3TE0PmObmkVvuc90t6bY3PqSPihUd3icBRtBJ73fLthz2cm/ibrupeDKqg+CwKtKgogrBbI3J2p8zEOvVUO3nOOs3tuMaItN8ZllV9RTMm3luPG/3683MUWyheWhmTya4pcwV+SmWMMEcFhqIM0BfR4KcwHYP+G+wwP7D7WYn02h1QKkrYdJR0mckfQ5djhV7KNvS1PHHYXqIVT0jcAOjFhvg0L5zsOS3/J/YJBjiVKCE1r3WYP7IOmjITb1x8M+SaKiDyobTHdhi6/SZvxNzUb/ejaQLbRIqrLoKw5TuWllDi0L0BnKZSGWcqEeJRJfAKCC9ITXJP1wxSajBueicUBiDBVdty3mPkeDGwQMehj/8z2IWbJFdYEKT1EWR79RkAG0YizJG8jqHhU+69Ean7F1xJCcrv4di91j4qjRMoAqtk1iyfstM/UsIwmmAwI9LuKJzNhF7T1ZLNiXfTdM8LnoB39I9w0vLRW7i/XoBwInZBGDi8e8bSz9Yeo30zZlskTxb5oVytmtubKqzXLH6376q1mz7QfvlFA4="
+            }}
+    },
+    "visibility": {
+        "Pat_One": true,
+		"Pat_Two": false,
+		"Pat_Three": false, 
+		"Pat_Four":false,
+        "Pat_Five": false,
+		"Pat_Six": false,
+        "Jen_One": true,
+		"Jen_Two": false,
+		"Jen_Three": false, 
+		"Jen_Four":false,
+        "Jen_Five": false,
+		"Jen_Six": false
+    },
+	"HighlightClickEntityStage": [
+	    "Pat_One",
+	    "Jen_One"
+	],
+	"NotCompletedQuestProgressStage": [
+	24,
+	0
+	],	
+
+    "DialogStage": [
+        {
+            "Pat": "What’s up!",
+			"Pat": "You want to help us out?",
+            "[PLAYER]": "Of course, I will help you!",
+            "Pat": "Great!",
+			"Pat": "Me and Jen are exploring MMOs World.",
+			"Pat": "Catching all sorts of Pokémon and all sorts of types.",
+            "Pat": "Hopefully Jen doesn’t fall in any holes this time…",
+			"Jen": "Wow! Ok, the killer…",
+            "Pat": "So, anyways.",
+            "Pat": "We will be near the map, in Lucky Lands Swamps..",
+			"Pat": "Meet you their!",
+			"Pat": "We have some challenges for you."
+        }
+    ],
+	"TimedStage": [
+        1
+    ],
+    "visibility": {
+        "Pat_One": false,
+		"Pat_Two": true,
+		"Pat_Three": false, 
+		"Pat_Four":false,
+        "Pat_Five": false,
+		"Pat_Six": false,
+        "Jen_One": false,
+		"Jen_Two": true,
+		"Jen_Three": false, 
+		"Jen_Four":false,
+        "Jen_Five": false,
+		"Jen_Six": false
+    },
+	"HighlightClickEntityStage": [
+	    "Pat_Two",
+	    "Jen_Two"
+	],
+    "NpcClickStage": [
+        "Pat_Two",
+        "Jen_Two"
+    ],
+    "DialogStage": [
+        {
+            "Pat": "We are in Lucky Land Swamps.",
+            "Jen": "I know this place!",
+            "Jen": "This is where Poison types spawn!",
+			"Pat": "You got it Jen!",
+			"Pat": "We need your help to catch a few Pokémon."
+			
+        }
+    ],
+	"TimedStage": [
+              2.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Arbok."
+	],
+    
+	"CatchPokemonStage": [
+	    "Arbok",
+		1
+	],
+	"ClickEntityStage": [
+	    "Pat_Two"
+	],
+	"ObjectiveStage": [
+		"Give the Magnemite to Pat"
+	],
+	"ProvidePokemonStage": [
+        "Pat_Two",
+        "Arbok"
+    ],
+	"DialogStage": [
+        {
+			"Pat": "Great Job!",
+            "Pat": "1 more Poison Type please."
+        }
+    ],
+	"TimedStage": [
+              2.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Venonat."
+	],
+    
+	"CatchPokemonStage": [
+	    "Venonat",
+		1
+	],
+	"ClickEntityStage": [
+	    "Pat_Two"
+	],
+	"ObjectiveStage": [
+		"Give the Venonat to Pat"
+	],
+	"ProvidePokemonStage": [
+        "Pat_Two",
+        "Venonat"
+    ],
+	"DialogStage": [
+        {
+			"Pat": "Good!",
+            "Pat": "Jen where are we exploring next?",
+			"Jen": "Lucky Land Town!",
+            "Pat": "You got it!",
+            "Pat": "Meet you there."
+        }
+    ],
+	"TimedStage": [
+        1
+    ],
+    "ObjectiveStage": [
+        "Find Pat and Jen in Lucky Land Town."
+    ],
+    "visibility": {
+        "Pat_One": false,
+		"Pat_Two": false,
+		"Pat_Three": true, 
+		"Pat_Four":false,
+        "Pat_Five": false,
+		"Pat_Six": false,
+        "Jen_One": false,
+		"Jen_Two": false,
+		"Jen_Three": true, 
+		"Jen_Four":false,
+        "Jen_Five": false,
+		"Jen_Six": false
+    },
+	"HighlightClickEntityStage": [
+	    "Pat_Three",
+	    "Jen_Three"
+	],
+	"NpcClickStage": [
+        "Pat_Three",
+        "Jen_Three"
+    ],
+    "DialogStage": [
+        {
+            "Pat": "You made it!",
+			"Pat": "I need a few more Pokémon.",
+			"Jen": "This time their Psychic type.",
+			"Pat": "Yep. Good luck finding them."
+        }
+    ],
+	"TimedStage": [
+              2.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Abra."
+	],
+    
+	"CatchPokemonStage": [
+	    "Abra",
+		1
+	],
+	"ClickEntityStage": [
+	    "Pat_Three"
+	],
+	"ObjectiveStage": [
+		"Give the Abra to Pat"
+	],
+	"ProvidePokemonStage": [
+        "Pat_Three",
+        "Abra"
+    ],
+	"DialogStage": [
+        {
+			"Pat": "Great Job!",
+            "Pat": "You're getting the hang of this. Now 1 more."
+        }
+    ],
+	"TimedStage": [
+              2.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Jynx."
+	],
+    
+	"CatchPokemonStage": [
+	    "Jynx",
+		1
+	],
+	"ClickEntityStage": [
+	    "Pat_Three"
+	],
+	"ObjectiveStage": [
+		"Give the Jynx to Pat"
+	],
+	"ProvidePokemonStage": [
+        "Pat_Three",
+        "Jynx"
+    ],
+	"DialogStage": [
+        {
+			"Pat": "Good!",
+            "Pat": "Now to Cookie Town?",
+			"Jen": "Yea!",
+            "Pat": "If you head down this road there is a path on the left",
+            "Pat": "That will take you to Training Grounds!",
+            "Jen": "I'm going to beat you there!"
+        }
+    ],
+	"TimedStage": [
+        1
+    ],
+    "ObjectiveStage": [
+        "Find Pat and Jen in Cookie Town."
+    ],
+    "visibility": {
+        "Pat_One": false,
+		"Pat_Two": false,
+		"Pat_Three": false, 
+		"Pat_Four":true,
+        "Pat_Five": false,
+		"Pat_Six": false,
+        "Jen_One": false,
+		"Jen_Two": false,
+		"Jen_Three": false, 
+		"Jen_Four":true,
+        "Jen_Five": false,
+		"Jen_Six": false
+    },
+
+	
+	
+	"HighlightClickEntityStage": [
+	    "Pat_Four",
+	    "Jen_Four"
+	],
+	"NpcClickStage": [
+        "Pat_Four",
+        "Jen_Four"
+    ],
+    "DialogStage": [
+        {
+            "Pat": "See this isn't too bad right?",
+			"Pat": "Jen do you know what Cookie Town is known for?",
+			"Jen": "Cookies?",
+			"Pat": "No...",
+			"Pat": "They are mostly known for water types.",
+			"Pat": "Since you are getting the hang of this.",
+			"Pat": "I will just ask for 1.",
+			"Jen": "I chose Magikarp",
+			"Pat": "Wow! You pretty much got a free-bee there."
+        }
+    ],
+	"TimedStage": [
+              2.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Magikarp."
+	],
+    
+	"CatchPokemonStage": [
+	    "Magikarp",
+		1
+	],
+	"ClickEntityStage": [
+	    "Pat_Four"
+	],
+	"ObjectiveStage": [
+		"Give the Magikarp to Pat"
+	],
+	"ProvidePokemonStage": [
+        "Pat_Four",
+        "Magikarp"
+    ],
+	"DialogStage": [
+        {
+			"Pat": "Great!",
+            "Pat": "I'm choosing the next town now!",
+            "Pat": "Training Grounds it is!"
+        }
+    ],
+	"TimedStage": [
+        1
+    ],
+    "ObjectiveStage": [
+        "Find Pat and Jen in Training Grounds."
+    ],
+    "visibility": {
+        "Pat_One": false,
+		"Pat_Two": false,
+		"Pat_Three": false, 
+		"Pat_Four":false,
+        "Pat_Five": true,
+		"Pat_Six": false,
+        "Jen_One": false,
+		"Jen_Two": false,
+		"Jen_Three": false, 
+		"Jen_Four":false,
+        "Jen_Five": true,
+		"Jen_Six": false
+    },
+		"HighlightClickEntityStage": [
+	    "Pat_Five",
+	    "Jen_Five"
+	],
+	"NpcClickStage": [
+        "Pat_Five",
+        "Pat_Five"
+    ],
+    "DialogStage": [
+        {
+            "Pat": "Wow! I'm tired from all that walking.",
+			"Pat": "Jen, you can tell [PLAYER], what to find.",
+			"Jen": "Okay.",
+			"Jen": "Training Grounds is known for Normal type.",
+			"Jen": "So...",
+			"Jen": "Catch me a Pidgey"
+        }
+    ],
+	"TimedStage": [
+              2.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Pidgey."
+	],
+    
+	"CatchPokemonStage": [
+	    "Pidgey",
+		1
+	],
+	"ClickEntityStage": [
+	    "Pat_Five"
+	],
+	"ObjectiveStage": [
+		"Give the Pidgey to Pat"
+	],
+	"ProvidePokemonStage": [
+        "Pat_Five",
+        "Pidgey"
+    ],
+	"DialogStage": [
+        {
+			"Jen": "Thanks!",
+            "Pat": "I think we need to go home now.",
+            "Pat": "Pat seems too tired to carry on.",
+            "Pat": "Seems his work-outs don't work...",
+            "Pat": "You can come with us!"
+        }
+    ],
+	"TimedStage": [
+        1
+    ],
+    "ObjectiveStage": [
+        "Find Pat and Jen in Training Grounds."
+    ],
+    "visibility": {
+        "Pat_One": false,
+		"Pat_Two": false,
+		"Pat_Three": false, 
+		"Pat_Four":false,
+        "Pat_Five": false,
+		"Pat_Six": true,
+        "Jen_One": false,
+		"Jen_Two": false,
+		"Jen_Three": false, 
+		"Jen_Four":false,
+        "Jen_Five": false,
+		"Jen_Six": true
+    },
+		"HighlightClickEntityStage": [
+	    "Pat_Six",
+	    "Jen_Six"
+	],
+	"NpcClickStage": [
+        "Pat_Six",
+        "Pat_Six"
+    ],
+    "DialogStage": [
+        {
+            "Jen": "Thanks for coming with us on our Exploration.",
+			"Pat": "Yea, it was great to have you!",
+			"Jen": "Here are some rewards for coming along with us.",
+			"Jen": "I hope we can do this again tomorrow!"
+        }
+    ],
+	"TimedStage": [
+        3.0
+    ],
+    "visibility": {
+        "Pat_One": true,
+		"Pat_Two": false,
+		"Pat_Three": false, 
+		"Pat_Four":false,
+        "Pat_Five": false,
+		"Pat_Six": false,
+        "Jen_One": true,
+		"Jen_Two": false,
+		"Jen_Three": false, 
+		"Jen_Four":false,
+        "Jen_Five": false,
+		"Jen_Six": false
+    },
+    "GiveCoinsStage": [
+        7500
+    ],
+    "GiveTokensStage": [
+        5
+    ],
+    "GiveTrainerExperienceStage": [
+        7500
+    ],
+	"GiveItemStage": [
+		"Focus_Sash",
+		1,
+		0.15
+	],
+	"CompleteQuestStage": [
+	]
+}

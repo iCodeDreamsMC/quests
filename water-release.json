@@ -1,0 +1,255 @@
+{
+    "key": "WATER_RELEASE",
+    "name": "&bDaily Challenge 4 - Water Release",
+	"author": "Mattyy",
+    "description": "Help Noah find all the Pokémon he let loose.",
+    "location": "Noobville Pier",
+    "minimumLevel": 10,
+    "hideInQuestLog": false,
+    "allowRejoining": true,
+    "icon": {
+        "material": "water_bucket"
+    },
+	"rewards": [
+		"&67500 Coins",
+		"&55 Tokens",
+		"&27500 Trainer Experience",
+		"&rChance for a &bWater Stone"
+	],
+    "npcs": {
+        "Noah": {
+            "name": [
+				"&6&lNoah",
+				"&a&lChallenge Giver"
+			],
+            "location": {
+                "world": "world",
+                "x": 713.5,
+                "y": 29.0,
+                "z": 706.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzEwODI1NzU3NzIsInByb2ZpbGVJZCI6ImE5MGI4MmIwNzE4NTQ0ZjU5YmE1MTZkMGY2Nzk2NDkwIiwicHJvZmlsZU5hbWUiOiJJbUZhdFRCSCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4NDgxMTk4NzY3YTQwNTAyMmMyZWU1NmJmZDA4ZDliYTU4MmU4NjFiOWIwNmQyMmFkNjdkOTk5ODQ2MWY1YSJ9fX0=",
+                "signature": "FSXEzMC1Eid7Rct/muoUs8ETQzpVrG4AbwPWfrQNlgeHWosI3lQxlY8xiXl0Gs18EinaF15L47U6kuqiJ93bw97ksGTKIUj5EaO/IPAOanho32uYkAw+u+ISUeKdCCv9cLAnAg+SqaDEbq/hVbzCn5FEU2nryUTbHvOGsZ4OxnMDFzzglQgM9zJjSRy1nHZRkl48UT/XXhiSPsxKu+miefcIkmEhNgMAkjxkmeWHwJ9ZldQ6ESY/zLYgW+jCGIIV9h+7/mVsj7YGJcaRjlSWdYvXEx2SG+zcv8VKAeTRzOEPHn/SrUHQ+saKsdVeP9sFKol0S90ohWngdrvVMNh193T24duVOB0Rut/LkgkrmKFxPnc3Sy6/FpHZgl/XBOn6LGmqv1qmvt81rTWHWqyUV+e29aFWvjAOZe1MKzvqqC7bZhSgOuDbnkgJkmsleGITBgLf0puKyYl0aVmefdPWdbOAns+VlUmHSJ2Jxce1pPoMcCrSD00hmDlFwUER9Faym6OTvtaUxDVhQUMJtPEpFZltMsKHBh2e7Fm7oRS3/MMVe/ZhicofOIAvwKqj6y4GxH01oXZPRB/0crRViHrhMGYv2lb8zENPDOUtP1CTwPdTB9Zblnwzj9kZ/ZiBFxqwMxE82sdEYCS+UpmI0VUUlh3ItCWWu3BBkMY8niE1E+4="
+            }
+		}
+    },
+	"HighlightClickEntityStage": [
+        "Noah"
+    ],
+	"NotCompletedQuestProgressStage": [
+	24,
+	0
+	],	
+	"DialogStage": [
+        {
+			"Noah": "Oh Hi, I need your help.",
+			"Noah": "I accidentally released some pokemon from my Pokedéx.",
+            "Noah": "Can you please help me find some of the water type Pokémon I released?",
+			"[PLAYER]": "Seems you are a unlucky guy.",
+			"Noah": "Luck?",
+			"Noah": "Luck is my second name!",
+			"Noah": "Mind you, my first name is Bad.",
+			"Noah": "So, will you help?",
+			"[PLAYER]": "Sure!",
+			"Noah": "I recommend looking down near the ocean." }],
+    "TimedStage": [
+        1.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Magikarp."
+	],
+    
+	"CatchPokemonStage": [
+	    "Magikarp",
+		1
+	],
+	"ClickEntityStage": [
+	    "Noah"
+	],
+	"ObjectiveStage": [
+		"Give the Magikarp to Noah"
+	],
+	"ProvidePokemonStage": [
+        "Noah",
+        "Magikarp"
+    ],
+	"DialogStage": [
+		{
+			"Noah": "Oh my! You found one! Don't worry theirs more then that."
+		}],
+    "TimedStage": [
+        1.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Seel."
+	],
+	
+	"CatchPokemonStage": [
+	    "Seel",
+		1
+	],
+	"ClickEntityStage": [
+	    "Noah"
+	],
+	"ObjectiveStage": [
+		"Give the Seel to Noah"
+	],
+	"ProvidePokemonStage": [
+        "Noah",
+        "Seel"
+    ],
+	"DialogStage": [
+		{
+			"Noah": "Thank you so much! Just a few more, I promise."
+		}
+	],    "TimedStage": [
+        1.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Krabby."
+	],
+	"CatchPokemonStage": [
+	    "Krabby",
+		1
+	],
+	"ClickEntityStage": [
+	    "Noah"
+	],
+	"ObjectiveStage": [
+		"Give the Krabby to Noah"
+	],
+	"ProvidePokemonStage": [
+        "Noah",
+        "Krabby"
+    ],
+	"DialogStage": [
+		{
+			"Noah": "Krabby is one of my Favorite Pokémon their is! Thank you for finding one."
+		}
+	],
+    "TimedStage": [
+        1.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Shellder."
+	],
+	"CatchPokemonStage": [
+	    "Shellder",
+		1
+	],
+	"ClickEntityStage": [
+	    "Noah"
+	],
+	"ObjectiveStage": [
+		"Give the Shellder to Noah"
+	],
+	"ProvidePokemonStage": [
+        "Noah",
+        "Shellder"
+    ],
+	"DialogStage": [
+		{
+			"Noah": "A Shellder! Thanks, I am going to think about evolving this with my spare Water Stone.",
+			"Noah": "I have always dreamed about a Cloyster. Maybe if you are lucky I will give you a Water Stone."
+		}
+	],
+    "TimedStage": [
+        1.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Goldeen."
+	],
+    
+	"CatchPokemonStage": [
+	    "Goldeen",
+		1
+	],
+	"ClickEntityStage": [
+	    "Noah"
+	],
+	"ObjectiveStage": [
+		"Give the Goldeen to Noah"
+	],
+	"ProvidePokemonStage": [
+        "Noah",
+        "Goldeen"
+    ],
+	"DialogStage": [
+		{
+			"Noah": "You are doing Great!"
+		}],
+    "TimedStage": [
+        1.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Horsea"
+	],
+	"CatchPokemonStage": [
+	    "Horsea",
+		1
+	],
+	"ClickEntityStage": [
+	    "Noah"
+	],
+	"ObjectiveStage": [
+		"Give the Horsea to Noah"
+	],
+	"ProvidePokemonStage": [
+        "Noah",
+        "Horsea"
+    ],
+	"DialogStage": [
+		{
+			"Noah": "I don't know whay I would do without you! Now, 1 last Pokémon."
+		}
+	],
+    "TimedStage": [
+        1.0
+    ],
+	"ObjectiveStage": [
+		"Catch a Staryu"
+	],
+	"CatchPokemonStage": [
+	    "Staryu",
+		1
+	],
+	"ClickEntityStage": [
+	    "Noah"
+	],
+	"ObjectiveStage": [
+		"Give the Staryu to Noah"
+	],
+	"ProvidePokemonStage": [
+        "Noah",
+        "Staryu"
+    ],
+	"DialogStage": [
+        {
+			"Noah": "Thank you so much! I'm so glad you came along when you did!",
+            "Noah": "Here are some goodies for being so kind and helpful!"
+        }
+    ],
+
+	"TimedStage": [
+        3.0
+    ],
+    "GiveCoinsStage": [
+        7500
+    ],
+    "GiveTokensStage": [
+        5
+    ],
+    "GiveTrainerExperienceStage": [
+        7500
+    ],
+	"GiveItemStage": [
+		"Water_Stone",
+		1,
+		0.15
+	],
+	"CompleteQuestStage": [
+	]
+}

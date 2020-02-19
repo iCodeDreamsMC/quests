@@ -1,0 +1,90 @@
+{
+    "key": "fossil_capital_select_3",
+    "name": "&aFossil Select 3",
+	"author": "Eive & Matty",
+    "description": "Fossil Capital Selection File",
+    "location": "Kinetic Island",
+    "minimumLevel": 1,
+    "hideInQuestLog": true,
+    "allowRejoining": true,
+    "icon": {
+        "material": "FLINT"
+    },
+    "rewards": [
+    ],
+    "npcs": {
+        "POKE_SELECT_3": {
+            "name": [
+                "&6&lRelicanth",
+				"&7Click to Select"
+            ],
+            "location": {
+                "world": "world",
+                "x": 1612.5,
+                "y": 28.0,
+                "z": -399.5,
+                "yaw": 90,
+                "pitch": 0
+            },
+            "entity": "armor_stand",
+            "pokemon": "Relicanth"
+        }
+	},
+    "visibility": {
+        "POKE_SELECT_3": false
+	},
+    "CompletedOtherQuestProgress": [
+      "Fossil_Capital"
+    ],
+    "NotCompletedOtherQuestProgress": [
+      "fossil_capital_select_2"
+    ],
+    "NotCompletedOtherQuestProgress": [
+      "fossil_capital_select_1"
+    ],
+    "visibility": {
+        "POKE_SELECT_3": true
+	},
+    "ClickEntity": [
+      "POKE_SELECT_3"
+    ],
+    "Delay": [
+      1
+    ],
+    "SendMessage": [
+      "&8[&6&l!&8] &7Selected &6Relicanth &7as your Fossil Pokémon!"
+    ],
+    "LeaveOtherQuest": [
+      "fossil_capital_select_2"
+    ],
+    "LeaveOtherQuest": [
+      "fossil_capital_select_1"
+    ],
+    "CompleteQuest": [
+    ],
+    "Delay": [
+      1.0
+    ],
+    "GiveIncubatorEgg": [
+        "Relicanth",
+        163,
+        203,
+        40,
+        50,
+        75,
+        45,
+        "",
+        "",
+        "Ultra_Ball",
+        "Water Gun",
+        "Yawn",
+        "Double-Edge",
+        "Harden"
+    ],
+    "SendMessage": [
+      "&8[&6&l!&8] &7Check your &bBreeding Incubator &7to see your &bRelicanth Egg &7Status!"
+    ],
+    "visibility": {
+        "POKE_SELECT_3": false
+	}
+}

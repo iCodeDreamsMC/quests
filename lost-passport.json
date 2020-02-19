@@ -1,0 +1,159 @@
+{
+    "key": "LOST_PASSPORT",
+    "name": "&bDaily Challenge 5 - The Lost Passport",
+	"author": "Mattyy",
+    "description": "Help Merrick find his Passport!",
+    "location": "Noobville",
+    "minimumlevel": 10,
+    "hideInQuestLog": false,
+    "allowRejoining": true,
+    "icon": {
+        "material": "BOOK"
+    },
+	"rewards": [
+		"&67500 Coins",
+		"&55 Tokens",
+		"&27500 Trainer Experience",
+		"&rChance for a &eThunder Stone"
+	],
+    "npcs": {
+        "Merrick": {
+            "name": [
+				"&6&lMerrick",
+				"&a&lChallenge Giver"
+			],
+            "location": {
+                "world": "world",
+                "x": 641,
+                "y": 38,
+                "z": 660,
+                "yaw": -45,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1NDM3MjAyODIyMDcsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI1OWQxNWE0YWI0NWI4OTNkNGNkZjhiNDlmODJlM2VhNWY0Njc5M2Q0OTc2MDU2NWNhMjA5ZmNhNjRhODM1YiJ9fX0=",
+                "signature": "APF86M50gHfGz+Wvap+qN60cFxp4DG1exRZ+S+QYDU+6VIpil3Ua8xF73W1BcW9ZBhMkRDL1zkWysmPgmxxhk89AAQRVzdL8gIpBq9enUeU3yqIgw5i8KGlAv3TzxwSlTOgp0y7rv+yYa9uLzloEMAYC4ks0bDfCGZS6+1qxigBPi/Lxc6uMh/DpQQwN01+p8/DmywXxzj1T0S9edvJaNbh5Ud8nFpd/8FHtLQaW7whYWc5WU9KHrJI4rkNnGBztwXqyP6I/n30C5mwnR1i7R6GxtQbSBCxSrCkmgGeA+WwQHHHDkuCPbU21hIZ2kJQWT6Xdr3jN3TrltvXe33OtuaXmi44ncfqduvbTY/rhFU6B9OIHhIFicG3CtBAq5GTvYEPyzVwz5r+OYF7ei8/Gtq9bUYiFNHEzZslXwUQ8+psCmLjX3G9DkEz3SAeji6r4cJ6z2sGlQO92PrWslY1kbepc7LN8Shk/C8+zfk8bLA5YOkMqABu7x2Tz1asRwOez4vBx64CGng0aGCyjBAKG/QjEDa1N9pCbAxxveA2GofVumJUm7yq2InsFnYYXnIq5ApfUr2oYXRswQaJoKVgnBngb1FvpAtsbr6WM7mSfl63UBBn50X5V7+4WV69EZdb13a3Jx3vl9IEd4HkHk1QKhkSrKIxvLBh+pMcYPmtX9k0="
+            }
+		}
+    },
+	"HighlightClickEntityStage": [
+        "Merrick"
+    ],
+	"NotCompletedQuestProgressStage": [
+	24,
+	0
+	],	
+	"DialogStage": [
+        {
+			"Merrick": "Hey! [PLAYER] I need your help really badly.",
+			"Merrick": "I lost my passport...",
+			"Merrick": "and Ryder wont let me travel to new lands.",
+			"[PLAYER]": "Man, that sucks.",
+			"Merrick": "Will you help me find the pages from my passport?",
+			"[PLAYER]": "Sure!",
+			"Merrick": "Great! I think their scattered around Noobville."
+        }
+    ],
+	"TimedStage": [
+        1
+    ],
+"PickupItemStage": [
+		624.5,
+		38.95,
+		672.9,
+		"",
+		"paper"
+	],
+	"ObjectiveStage": [
+        "Find the 1st Page to Merrick's Passport."
+    ],
+	"SendMessageStage": [
+        "&6Picked up Paper 1/5"
+    ],
+"PickupItemStage": [
+		647.2,
+		41.95,
+		713.5,
+		"",
+		"paper"
+	],
+	"ObjectiveStage": [
+        "Find the 2nd Page to Merrick's Passport."
+    ],
+	"SendMessageStage": [
+        "&6Picked up Paper 2/5"
+    ],
+"PickupItemStage": [
+		667.5,
+		38.8,
+		675.7,
+		"",
+		"paper"
+	],
+	"ObjectiveStage": [
+        "Find the 3rd Page to Merrick's Passport."
+    ],
+	"SendMessageStage": [
+        "&6Picked up Paper 3/5"
+    ],
+"PickupItemStage": [
+		618.8,
+		46.9375,
+		629.5,
+		"",
+		"paper"
+	],
+	"ObjectiveStage": [
+        "Find the 4th Page to Merrick's Passport."
+    ],
+	"SendMessageStage": [
+        "&6Picked up Paper 4/5"
+    ],
+"PickupItemStage": [
+		638.2,
+		37.95,
+		661.5,
+		"",
+		"paper"
+	],
+	"ObjectiveStage": [
+        "Find the 5th Page to Merrick's Passport."
+    ],
+	"SendMessageStage": [
+        "&6Picked up Paper 5/5"
+    ],
+"HighlightClickEntityStage": [
+        "Merrick"
+    ],
+	"ObjectiveStage": [
+        "Go talk to Merrick"
+    ],	
+	"DialogStage": [
+        {
+			"Merrick": "Yey! You found them!",
+            "Merrick": "You are a life saver!",
+            "Merrick": "I've always wanted to go to France.",
+            "Merrick": "Especially Paras.",
+            "Merrick": "Here, take these rewards for helping me so much!"
+        }
+    ],
+	"TimedStage": [
+        3
+    ],
+    "GiveCoinsStage": [
+        7500
+    ],
+    "GiveTokensStage": [
+        5
+    ],
+    "GiveTrainerExperienceStage": [
+        7500
+    ],
+	"GiveItemStage": [
+		"Thunder_Stone",
+		1,
+		0.10
+	],
+	"CompleteQuestStage": [
+	]
+}

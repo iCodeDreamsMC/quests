@@ -1,0 +1,52 @@
+{
+    "key": "challenge_catch_5",
+    "name": "&b&lDaily Challenge &r- &7Catch 5 Magikarps",
+    "author": "iCodeDreams",
+    "hideInQuestLog": true,
+    "allowRejoining": false,
+    "category": "Catch",
+    "icon": {
+        "material": "Player Head",
+        "data": 3,
+        "skin": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE3ODZlNGUzNWI1OWQ5MWViNjQ1NGVmMjZiN2IwNjgzNzYxZDZiMTFmMWQ2M2M3NzQwYWYxN2FhM2YifX19",
+            "signature": ""
+        }
+    },
+    "PlayerJoinStartQuest": [
+    ],
+    "NotCompleted": [
+        "challenge_catch_5",
+        24,
+        0,
+        ""
+    ],
+ "CatchPokemon": [
+      "magikarp",
+      5
+    ],
+    "SendMessage": [
+        "&3&K==&6&K== &b&lCHALLENGE COMPLETED! &6&K==&3&K==",
+        "&7&oPlease Select your Reward from the list below!"
+      ],
+      "SendMessageOptions": [
+        "&8➥ &d1000 Coins",
+        "&8➥ &55 Tokens",
+        "&8➥ &c10 Pokeballs"
+      ],
+      "GiveCoins": [
+        1000
+      ],
+      "GiveTokens": [
+        5
+      ],
+      "GiveItem": [
+        "poke_ball",
+        10
+      ],
+
+      "SendMessage": [
+        "&bCompleted Challenge! &r- &7Catch 5 Magikarps"
+      ],
+    "CompleteQuestStage": []
+  }

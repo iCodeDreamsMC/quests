@@ -1,0 +1,48 @@
+{
+    "key": "challenge_explore_4",
+    "name": "&b&lDaily Challenge &r- &7Dratini Lake Exploration",
+    "author": "iCodeDreams",
+    "location": "Dratini Lake - Training Grounds",
+    "hideInQuestLog": true,
+    "allowRejoining": false,
+    "category": "Explore",
+    "icon": {
+        "material": "Player Head",
+        "data": 3,
+        "skin": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1ODY1MDgzOWE1MjcyOGU4MWM2Y2ZhN2RlNWFkNmI0OTQ1OTQ0MTIxNjdlNTYzNDA3NGNiMmUzODgzMmYwZCJ9fX0=",
+            "signature": ""
+        }
+    },
+    "RegionEntry": [
+        1165,0,2005,1315,103,1818
+      ],
+    "NotCompletedQuestProgressStage": [
+        24,
+        0
+    ],
+    "SendMessage": [
+        "&3&K==&6&K== &b&lCHALLENGE COMPLETED! &6&K==&3&K==",
+        "&7&oPlease Select your Reward from the list below!"
+      ],
+      "SendMessageOptions": [
+        "&8➥ &6500 Coins",
+        "&8➥ &52 Tokens",
+        "&8➥ &d1 Max Ether"
+      ],
+      "GiveCoins": [
+        500
+      ],
+      "GiveTokens": [
+        2
+      ],
+      "GiveItem": [
+        "max_ether",
+        1
+      ],
+
+      "SendMessage": [
+        "&bCompleted Challenge! &r- &7Dratini Lake Exploration"
+      ],
+    "CompleteQuestStage": []
+  }

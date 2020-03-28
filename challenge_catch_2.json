@@ -1,0 +1,52 @@
+{
+    "key": "challenge_catch_2",
+    "name": "&b&lDaily Challenge &r- &7Catch a Pikachu",
+    "author": "iCodeDreams",
+    "hideInQuestLog": true,
+    "allowRejoining": false,
+    "category": "Catch",
+    "icon": {
+        "material": "Player Head",
+        "data": 3,
+        "skin": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZhNjk1YjU5NjE4YjM2MTZiNmFhYTkxMGM1YTEwMTQ2MTk1ZWRkNjM2N2QyNWU5Mzk5YTc0Y2VlZjk2NiJ9fX0=",
+            "signature": ""
+        }
+    },
+    "PlayerJoinStartQuest": [
+    ],
+    "NotCompleted": [
+        "challenge_catch_2",
+        24,
+        0,
+        ""
+    ],
+    "CatchPokemon": [
+        "pikachu",
+        1
+      ],
+    "SendMessage": [
+        "&3&K==&6&K== &b&lCHALLENGE COMPLETED! &6&K==&3&K==",
+        "&7&oPlease Select your Reward from the list below!"
+      ],
+      "SendMessageOptions": [
+        "&8➥ &62500 Coins",
+        "&8➥ &b5 Battle Points",
+        "&8➥ &610 Ultra Balls"
+      ],
+      "GiveCoins": [
+        2500
+      ],
+      "GiveBattlePoints": [
+        5
+      ],
+      "GiveItem": [
+        "ultra_ball",
+        10
+      ],
+
+      "SendMessage": [
+        "&bCompleted Challenge! &r- &7Catch a Pikachu"
+      ],
+    "CompleteQuestStage": []
+  }
